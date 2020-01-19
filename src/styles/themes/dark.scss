@@ -1,6 +1,7 @@
-$background: #202020;
+$background: #222731;
 $foreground: #b3b9c5;
-$accent: #303030;
+$accent: #2e333b;
+$gold: #fcc21c;
 $dark-border: darken($background, 3%);
 
 .dark {
@@ -83,6 +84,7 @@ $dark-border: darken($background, 3%);
     &.scroll {
       background: darken($background, 5%);
       border-color: darken($background, 5%);
+      border-bottom: 1px solid darken($gold, 15%);;
     }
 
     .brand a {

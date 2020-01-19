@@ -1,7 +1,7 @@
 const config = {
-  siteTitle: 'Tania Rascia',
-  siteTitleShort: 'Tania Rascia',
-  siteTitleAlt: 'Tania Rascia',
+  siteTitle: 'Almeida Cavalcante',
+  siteTitleShort: 'Almeida Cavalcante',
+  siteTitleAlt: 'Almeida Cavalcante',
   siteLogo: '/logos/logo-1024.png',
   siteUrl: 'https://www.taniarascia.com',
   repo: 'https://github.com/taniarascia/taniarascia.com',
@@ -9,15 +9,15 @@ const config = {
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
-    'Tania Rascia is a front end software developer and writer specializing in modern JavaScript.',
+    'Almeida Cavalcante is an enthusiastic full stack developer .',
   siteRss: '/rss.xml',
-  googleAnalyticsID: 'UA-42068444-1',
+  // googleAnalyticsID: 'UA-42068444-1',
   postDefaultCategoryID: 'Tech',
   newsletter: 'https://taniarascia.substack.com',
   newsletterEmbed: 'https://taniarascia.substack.com/embed',
-  userName: 'Tania',
-  userEmail: 'hello@taniarascia.com',
-  userTwitter: 'taniarascia',
+  userName: 'Almeida',
+  userEmail: 'jalmeidacn@gmail.com',
+  userTwitter: 'skyknight1989',
   menuLinks: [
     {
       name: 'About me',

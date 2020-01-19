@@ -9,7 +9,8 @@
 
   &.scroll {
     box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.1);
-  }
+    border-bottom: 2px solid #fcc21c;
+}
 
   .cta {
     display: flex;
@@ -94,11 +95,11 @@
 }
 
 .favicon {
-  height: 23px;
-  width: 23px;
-  min-width: 23px;
+  height: 45px;
+  width: 45px;
+  min-width: 30px;
   margin-right: 0.75rem;
-  margin-bottom: 0;
+  margin-bottom: 0.65rem;
 }
 
 button.dark-switcher {
