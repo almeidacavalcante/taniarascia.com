@@ -2,8 +2,7 @@ export default {
   DigitalOcean: [
     {
       title: 'Understanding Syntax and Code Structure in JavaScript',
-      path:
-        'https://www.digitalocean.com/community/tutorials/understanding-syntax-and-code-structure-in-javascript',
+      path: 'https://www.digitalocean.com/community/tutorials/understanding-syntax-and-code-structure-in-javascript',
     },
     {
       title: 'How to Write Comments in JavaScript',
@@ -16,8 +15,7 @@ export default {
     },
     {
       title: 'How To Index, Split, and Manipulate Strings in JavaScript',
-      path:
-        'https://www.digitalocean.com/community/tutorials/how-to-work-with-strings-in-javascript',
+      path: 'https://www.digitalocean.com/community/tutorials/how-to-work-with-strings-in-javascript',
     },
     {
       title: 'How To Do Math in JavaScript with Operators',

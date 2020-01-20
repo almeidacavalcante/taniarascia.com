@@ -9,7 +9,7 @@ import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import projects from '../../data/projects'
 import quotes from '../../data/quotes'
-import almeida from '../../content/images/profile-me.jpeg'
+// import almeida from '../../content/images/profile-me.jpeg'
 
 export default class Index extends Component {
   render() {
@@ -24,11 +24,9 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>{`Hi and Welcome`}</h1>
-              <p>
-                I'm a very enthusiastic full-stack developer working at the State Public Ministry
-                and starting this <Link to="/blog">blog</Link> to share things that I'm struggling with. 
-              </p>
+              <h1>Hi and Welcome</h1>
+              <p>I'm a very enthusiastic developer and this is probably a tech related <Link to="/blog">blog</Link>.</p>
+              <br />
               <div className="social-buttons">
                 <GitHubButton
                   href="https://github.com/almeidacavalcante"
@@ -39,16 +37,18 @@ export default class Index extends Component {
                 </GitHubButton>
               </div>
             </div>
-            <div className="newsletter-section">
-              <img src={almeida} className="newsletter-avatar" alt="Tania" />
+
+            {/* <div className="newsletter-section">
+              <img src={almeida} className="newsletter-avatar" alt="Almeida Cavalcante" />
               <div>
-                <h3>Get updates</h3>
+                <h3>Instagram</h3>
                 <p>Open source projects and development tutorials</p>
-                <a className="button" href="https://taniarascia.substack.com">
-                  Subscribe
+                <a className="button" href="https://www.instagram.com/almeida.cavalcante/">
+                  Follow Me
                 </a>
               </div>
-            </div>
+            </div> */}
+
           </div>
         </div>
 
@@ -63,7 +63,7 @@ export default class Index extends Component {
             <PostListing simple postEdges={latestPostEdges} />
           </section>
 
-          <section className="section">
+          {/* <section className="section">
             <h2>Open Source Projects</h2>
             <ProjectListing projects={projects} />
           </section>
@@ -78,7 +78,8 @@ export default class Index extends Component {
                 </blockquote>
               ))}
             </div>
-          </section>
+          </section> */}
+
         </div>
       </Layout>
     )

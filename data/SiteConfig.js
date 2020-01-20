@@ -9,7 +9,7 @@ const config = {
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
-    'Almeida Cavalcante is an enthusiastic full stack developer .',
+    'Almeida Cavalcante is an enthusiastic developer.',
   siteRss: '/rss.xml',
   // googleAnalyticsID: 'UA-42068444-1',
   postDefaultCategoryID: 'Tech',
@@ -19,10 +19,6 @@ const config = {
   userEmail: 'jalmeidacn@gmail.com',
   userTwitter: 'skyknight1989',
   menuLinks: [
-    {
-      name: 'About me',
-      link: '/me/',
-    },
     {
       name: 'Articles',
       link: '/blog/',

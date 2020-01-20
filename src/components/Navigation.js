@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import me from '../images/me.svg'
-import sun from '../images/sun.svg'
-import moon from '../images/moon.svg'
-import kofi from '../../content/thumbnails/kofi.png'
+import glasses from '../images/glasses-icon.png'
+import moon from '../images/moon-icon.png'
 import ThemeContext from '../context/ThemeContext'
 
 export default class Navigation extends Component {
@@ -57,7 +56,7 @@ export default class Navigation extends Component {
                 title="Toggle Dark Mode"
               >
                 {theme.dark ? (
-                  <img src={sun} className="theme-icon" alt="Light Mode" />
+                  <img src={glasses} className="theme-icon" alt="Light Mode" />
                 ) : (
                   <img src={moon} className="theme-icon" alt="Dark Mode" />
                 )}

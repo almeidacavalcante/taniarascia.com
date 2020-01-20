@@ -53,6 +53,8 @@
 
     .elevator {
       margin-right: 2.5rem;
+      text-align: center;
+      flex: 1;
     }
 
     h1 {
@@ -62,6 +64,7 @@
     p {
       font-size: 1.5rem;
       max-width: 550px;
+      margin: 0 auto;
     }
 
     .button {
@@ -110,7 +113,6 @@
 }
 
 .social-buttons {
-  display: flex;
   align-items: center;
 
   a.patreon-button {
@@ -959,6 +961,7 @@ blockquote {
 
   div {
     display: flex;
+    margin: 0 auto;
     align-items: center;
     padding-bottom: 1.5rem;
   }
