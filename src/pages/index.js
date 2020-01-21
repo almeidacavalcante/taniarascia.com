@@ -27,6 +27,7 @@ export default class Index extends Component {
               <h1>Hi and Welcome</h1>
               <p>I'm a very enthusiastic developer and this is probably a tech related <Link to="/blog">blog</Link>.</p>
               <br />
+              
               <div className="social-buttons">
                 <GitHubButton
                   href="https://github.com/almeidacavalcante"

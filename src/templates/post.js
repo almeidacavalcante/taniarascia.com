@@ -82,7 +82,7 @@ export default class PostTemplate extends Component {
 
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
         </article>
-        <div className="container no-comments">
+        {/* <div className="container no-comments">
           <h3>No comments?</h3>
           <p>
             There are intentionally no comments on this site. Enjoy! If you found any errors in this
@@ -92,8 +92,8 @@ export default class PostTemplate extends Component {
             </a>
             .
           </p>
-        </div>
-        <div className="container">
+        </div> */}
+        {/* <div className="container">
           <a
             className="button"
             href="https://taniarascia.substack.com/"
@@ -102,8 +102,8 @@ export default class PostTemplate extends Component {
           >
             Subscribe to Newsletter
           </a>
-        </div>
-        <UserInfo config={config} />
+        </div> */}
+        {/* <UserInfo config={config} /> */}
       </Layout>
     )
   }
