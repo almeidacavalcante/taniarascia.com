@@ -39,7 +39,7 @@ Let's start with 2 important libraries: **Express** and **Body-Parser**.
 **Express** is a minimal, flexible and open source Node.js web aplication framework that provides a very robust set of features for web and mobile apps. With Express we'll create
 **routes** and handle **http requests**.
 
-**Body-Parser** is a Node.js body parsing middleware that parses incoming http request bodies before your api handlers.
+**Body-Parser** is a Node.js body parsing middleware that parses incoming http request bodies before your api handlers, giving you, for example, a JSON parsed request body for you to work with.
 
 Now, just run the following command in the `terminal`:
 
@@ -142,7 +142,20 @@ It's time to test your first API. In the terminal just type:
 node src/index.js
 ```
 
-and access: `http://localhost:3000/`
+You'll notice that as soon as you type `enter` to execute the command, the terminal won't give to you any feedback. To see a feedback on which por
+express is running, we need to change the `app.listen(3000)` to:
+
+```javascript
+const port = 3000
+app.listen(port, () => console.log(`Please, visit: http://localhost:${port}`))
+```
+
+Execute the app again to see the difference:
+```bash
+node src/index.js
+```
+After that visit: `http://localhost:3000`
+
 
 <!-- 
 * [ ] Using Insomnia to test your API
