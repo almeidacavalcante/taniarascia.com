@@ -6,6 +6,11 @@ template: page
 
 Hey, if you have any suggestions, feel free to contact me at [jalmeidacn@gmail.com](mailto:jalmeidacn[AT]gmail[DOT]com)
 
+
+### Acknowledgment
+
+This blog was created using the **Tania Rascia's** template posted here: [tania.dev](https://github.com/taniarascia/taniarascia.com/)
+
 <!-- > **Note:** _The following things will be ignored: requests to put ads on my website, requests to write sponsored posts for my website, requests to add affiliate links to my website._ -->
 
 <!-- ### Around the web
