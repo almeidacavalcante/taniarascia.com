@@ -52,7 +52,7 @@ A minimal index.html file should always contain a few things, though.
     <title></title>
 
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="icon" href="images/favicon.png" />
+    <link rel="icon" href="images/favicon.png?v=2" />
   </head>
 
   <body>
