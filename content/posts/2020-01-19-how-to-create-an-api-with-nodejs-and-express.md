@@ -101,11 +101,6 @@ const urlencondedParser = bodyParser.urlencoded({extended: false})
 app.use(jsonParser)
 app.use(urlencondedParser)
 
-// Routes
-app.get('/', (request, response) => {
-  response.send({message: 'Hello, world'})
-})
-
 app.listen(3000)
 ```
 
@@ -158,5 +153,13 @@ Execute the app again to see the difference:
 node src/index.js
 ```
 After that visit: `http://localhost:3000`
+
+### Source
+
+Feel free to access the github repo and clone the project [node-express-api](https://github.com/almeidacavalcante/node-express-api) to you computer:
+
+```bash
+git clone https://github.com/almeidacavalcante/node-express-api.git
+```
 
 
