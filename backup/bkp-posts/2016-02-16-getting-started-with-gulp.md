@@ -141,7 +141,7 @@ This command will walk you through creating a generic **package.json**. It's pre
         "gulp",
         "sass"
       ],
-      "author": "Tania Rascia",
+      "author": "Almeida Cavalcante",
       "license": "MIT"
     }
 ```
@@ -386,12 +386,12 @@ You did it!
 
 There is much more that Gulp can do - notably, I left out any sort of JavaScript minifying or linting - but as far as a front end Sass workflow goes, this is a very useful and effective one!
 
-If you would like to play around with a real life example of the exact Gulp workflow from this tutorial, feel free to check out [my personal Sass boilerplate](http://taniarascia.github.io/primitive/). [The code is open sourced here](https://github.com/taniarascia/primitive), though I have yet to complete documentation.
+If you would like to play around with a real life example of the exact Gulp workflow from this tutorial, feel free to check out [my personal Sass boilerplate](http://almeidacavalcante.github.io/primitive/). [The code is open sourced here](https://github.com/almeidacavalcante/primitive), though I have yet to complete documentation.
 
 Now that all your global dependencies are installed, and you know how to set everything up, it would only require three commands to get up and running. It's a good example of how all the initial set up for Gulp is worth it in the end:
 
 ```
-git clone https://github.com/taniarascia/primitive.git
+git clone https://github.com/almeidacavalcante/primitive.git
 ```
 
 ```

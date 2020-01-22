@@ -39,13 +39,13 @@ Here is what we will start with.
 
 ![](../images/d2.png)
 
-Here is what we will end up with. You can view a working, responsive, coded version of it [here](https://taniarascia.github.io/card/).
+Here is what we will end up with. You can view a working, responsive, coded version of it [here](https://almeidacavalcante.github.io/card/).
 
 ![](../images/d1.png)
 
 Why Prague and Chicago? Because I'm from Chicago, and I started writing this article in Prague. (In Munich now...we'll see where I am when I finish).
 
-[View Demo](https://taniarascia.github.io/card/) [View GitHub Repo](https://github.com/taniarascia/card/)
+[View Demo](https://almeidacavalcante.github.io/card/) [View GitHub Repo](https://github.com/almeidacavalcante/card/)
 
 Note that the start is not actually bad design, but unstyled. It's easier to make a good design from nothing, than improve a bad one. However, all these guidelines can be used one-by-one to check for problems in your design.
 
@@ -417,7 +417,7 @@ Video game?
 
 ![](../images/d16.png)
 
-[New Moon](https://taniarascia.github.io/new-moon/) theme?
+[New Moon](https://almeidacavalcante.github.io/new-moon/) theme?
 
 ![](../images/d14.png)
 
@@ -429,5 +429,5 @@ You can use these guidelines to critique your own design. Do you need more paddi
 
 Here is the demo and source code.
 
-- [View Final Product](https://taniarascia.github.io/card/)
-- [View Source Code](https://github.com/taniarascia/card)
+- [View Final Product](https://almeidacavalcante.github.io/card/)
+- [View Source Code](https://github.com/almeidacavalcante/card)

@@ -21,8 +21,8 @@ This is what the website we make will look like:
 
 ![](../images/Screen-Shot-2015-11-30-at-2.20.25-AM.png)
 
-- [View Demo](http://taniarascia.github.io/startjekyll/) 
-- [View on GitHub](http://github.com/taniarascia/startjekyll/)
+- [View Demo](http://almeidacavalcante.github.io/startjekyll/) 
+- [View on GitHub](http://github.com/almeidacavalcante/startjekyll/)
 
 #### Prerequisites
 
@@ -30,7 +30,7 @@ This is what the website we make will look like:
 - [Basic command line knowledge](/how-to-use-the-command-line-for-apple-macos-and-linux/)
 - A GitHub account
 
-If you don't have a basic knowledge of command lines and Git, please read [the getting started with Git](http://www.taniarascia.com/getting-started-with-git/) article. This will cover everything you need to know to get started with using Git and the command line.
+If you don't have a basic knowledge of command lines and Git, please read [the getting started with Git](http://www.almeidacavalcante.com/getting-started-with-git/) article. This will cover everything you need to know to get started with using Git and the command line.
 
 #### Goals
 
@@ -167,7 +167,7 @@ There are a few important things to know about the Jekyll file system.
 
 There is more to know, but we'll learn along the way.
 
-> I'm going to go through all the files from here on out. If you'd rather clone the Git repository, you can [view it here](https://github.com/taniarascia/startjekyll). All the files in the repo will be the same as what I display here.
+> I'm going to go through all the files from here on out. If you'd rather clone the Git repository, you can [view it here](https://github.com/almeidacavalcante/startjekyll). All the files in the repo will be the same as what I display here.
 
 ## Configuration
 
@@ -200,13 +200,13 @@ I'm going to make a few changes to the configuration.
 ```yaml
 # Site Settings
 title: Start Jekyll
-email: taniarascia@gmail.com
+email: almeidacavalcante@gmail.com
 description: >
   A guide to getting started with Jekyll.
 baseurl: ''
 url: 'http://localhost:4000'
-twitter_username: taniarascia
-github_username: taniarascia
+twitter_username: almeidacavalcante
+github_username: almeidacavalcante
 # Build Settings
 sass:
   sass_dir: _sass
@@ -231,7 +231,7 @@ In Jekyll, **\_includes** are files that should show up on every page - header, 
 
 ```html
 <footer>
-	<p>By <a href="http://taniarascia.com">Tania</p>
+	<p>By <a href="http://almeidacavalcante.com">Tania</p>
 </footer>
 ```
 
@@ -612,7 +612,7 @@ Regenerating: 1 file(s) changed at 2015-11-30 ...done in 0.120487 seconds.
 
 ## Pushing Jekyll site to GitHub pages
 
-Create an empty repository in GitHub. Mine is **startjekyll**, so the Git repo URL is `https://github.com/taniarascia/startjekyll`.
+Create an empty repository in GitHub. Mine is **startjekyll**, so the Git repo URL is `https://github.com/almeidacavalcante/startjekyll`.
 
 There is one change that needs to be made in order to have one site for both your local Jekyll and the live GitHub pages.
 
@@ -622,7 +622,7 @@ Leave the **\_config_dev.yml** as is, and change **\_config.yml** for the live s
 
 ```yaml
 baseurl: "/startjekyll"
-url: "https://taniarascia.github.io"
+url: "https://almeidacavalcante.github.io"
 ```
 
 Now, when you want to work on the site locally, you will run the following command:
@@ -636,7 +636,7 @@ And it will load the information from the dev config.
 Serve your Jekyll one last time to ensure all the final changes have been updated. Here are the commands to push the site to GitHub pages:
 
 ```bash
-git remote add origin https://github.com/taniarascia/startjekyll.git
+git remote add origin https://github.com/almeidacavalcante/startjekyll.git
 ```
 
 Add the GitHub repository.
@@ -665,7 +665,7 @@ git push origin gh-pages
 
 Push all files to **gh-pages** branch.
 
-At this point, you should be able to open up [taniarascia.github.io/startjekyll](http://taniarascia.github.io/startjekyll), and it should be your Jekyll project! Without using any external task runners (like Grunt or Gulp), you can now work on the Sass files on your website, and serve up markdown files in place of HTML.
+At this point, you should be able to open up [almeidacavalcante.github.io/startjekyll](http://almeidacavalcante.github.io/startjekyll), and it should be your Jekyll project! Without using any external task runners (like Grunt or Gulp), you can now work on the Sass files on your website, and serve up markdown files in place of HTML.
 
 From here, it will be very easy to customize Jekyll to your liking. I purposefully kept every page as simple as possible, using semantic HTML5 tags. I sincerely hope this guide helped get you up and running with Jekyll. I documented all the steps along the way to ensure that the Sass will compile properly, and you won't have issues being on the right branch to push to GitHub pages.
 

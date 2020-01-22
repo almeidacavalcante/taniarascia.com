@@ -38,8 +38,8 @@ I wanted to try out Hooks and see how an app might look without any classes, but
 
 If you don't know how to make a simple CRUD app in React, regardless of whether you use classes or hooks, this article will be good for you as well.
 
-- [View Demo App](https://taniarascia.github.io/react-hooks/)
-- [View Source](https://github.com/taniarascia/react-hooks)
+- [View Demo App](https://almeidacavalcante.github.io/react-hooks/)
+- [View Source](https://github.com/almeidacavalcante/react-hooks)
 
 #### Prerequisites
 
@@ -47,7 +47,7 @@ In order to follow along with this tutorial, you'll need a basic knowledge of HT
 
 #### Goals
 
-In this tutorial, we'll make a [simple CRUD app](https://taniarascia.github.io/react-hooks/). It will have users, and you'll be able to add, update, or delete users. We won't use any React classes, and instead we'll utilize State Hooks and Effect Hooks on functional components. If you get lost along the way, be sure to check out [the source of the completed project](https://github.com/taniarascia/react-hooks).
+In this tutorial, we'll make a [simple CRUD app](https://almeidacavalcante.github.io/react-hooks/). It will have users, and you'll be able to add, update, or delete users. We won't use any React classes, and instead we'll utilize State Hooks and Effect Hooks on functional components. If you get lost along the way, be sure to check out [the source of the completed project](https://github.com/almeidacavalcante/react-hooks).
 
 ## Create React App
 
@@ -65,7 +65,7 @@ Now you're all set with the React.
 
 Let's start off by clearing out all the files from the boilerplate we don't need. Delete everything from the `/src` folder except `App.js`, `index.js`, and `index.css`.
 
-For `index.css`, I just copy and paste the CSS from [Primitive](https://taniarascia.github.io/primitive/css/main.css), a simple CSS boilerplate I made, as the point of this app is to work on React and not care about design. This CSS boilerplate just adds some sensible defaults and a simple grid so we can start prototyping.
+For `index.css`, I just copy and paste the CSS from [Primitive](https://almeidacavalcante.github.io/primitive/css/main.css), a simple CSS boilerplate I made, as the point of this app is to work on React and not care about design. This CSS boilerplate just adds some sensible defaults and a simple grid so we can start prototyping.
 
 In `index.js`, we'll simplify it by removing the references to Service Workers.
 
@@ -697,7 +697,7 @@ I didn't cover every use case for Hooks, or all functionality in-depth, but I tr
 
 If you got lost anywhere along the way, don't forget to check out the demo and source.
 
-- [View Demo App](https://taniarascia.github.io/react-hooks/)
-- [View Source](https://github.com/taniarascia/react-hooks)
+- [View Demo App](https://almeidacavalcante.github.io/react-hooks/)
+- [View Source](https://github.com/almeidacavalcante/react-hooks)
 
 The next thing to be on the lookout for is the [Suspense API](https://medium.com/swlh/react-suspense-with-the-fetch-api-cc655aced759).

@@ -63,7 +63,7 @@ Probably the cleanest, fastest site running on WordPress I've ever seen. James w
 
 - [ahmadawais.com](https://ahmadawais.com/)
 
-I've recently discovered Ahmad, and he has an some extremely impressive credentials. If there's a list or committee in web development, he's probably on it or associated with it - Google Developer Expert, Node.js Committee Member, WordPress Core Developer, to name a few. He also made a popular code theme, [Shades of Purple](https://github.com/ahmadawais/shades-of-purple-vscode)...but I'll never switch from [New Moon](https://github.com/taniarascia/new-moon)!
+I've recently discovered Ahmad, and he has an some extremely impressive credentials. If there's a list or committee in web development, he's probably on it or associated with it - Google Developer Expert, Node.js Committee Member, WordPress Core Developer, to name a few. He also made a popular code theme, [Shades of Purple](https://github.com/ahmadawais/shades-of-purple-vscode)...but I'll never switch from [New Moon](https://github.com/almeidacavalcante/new-moon)!
 
 ## Valentino Gagliardi
 

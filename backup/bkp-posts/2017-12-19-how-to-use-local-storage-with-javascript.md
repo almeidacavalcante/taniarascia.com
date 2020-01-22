@@ -19,8 +19,8 @@ However, even without any sort of database, we can use the local storage built i
 
 So that's what we're going to learn to do today.
 
-- [View Demo](https://taniarascia.github.io/sandbox/tab/)
-- [View Source](https://github.com/taniarascia/sandbox/tree/master/tab)
+- [View Demo](https://almeidacavalcante.github.io/sandbox/tab/)
+- [View Source](https://github.com/almeidacavalcante/sandbox/tree/master/tab)
 
 #### Prerequisites
 
@@ -30,7 +30,7 @@ So that's what we're going to learn to do today.
 
 #### Goals
 
-- Create a "new tab page" application that stores to-do items locally in the browser's [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) and displays them on the front end. [View example](https://taniarascia.github.io/sandbox/tab/).
+- Create a "new tab page" application that stores to-do items locally in the browser's [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) and displays them on the front end. [View example](https://almeidacavalcante.github.io/sandbox/tab/).
 
 ## Overview of web storage
 
@@ -100,7 +100,7 @@ Now we can begin setting up the app.
 
 ## Setting up the front end
 
-First, we'll create a simple HTML front end with **index.html**. I'm loading in [Primitive](https://taniarascia.github.io/primitive/) (my minimalist CSS framework) for styles, because that's what I always use when I need a quick front end.
+First, we'll create a simple HTML front end with **index.html**. I'm loading in [Primitive](https://almeidacavalcante.github.io/primitive/) (my minimalist CSS framework) for styles, because that's what I always use when I need a quick front end.
 
 <div class="filename">index.html</div>
 
@@ -333,8 +333,8 @@ button.addEventListener('click', function() {
 
 Here is the demo and source code once again.
 
-- [View Demo](https://taniarascia.github.io/sandbox/tab/) 
-- [View Source](https://github.com/taniarascia/sandbox/tree/master/tab)
+- [View Demo](https://almeidacavalcante.github.io/sandbox/tab/) 
+- [View Source](https://github.com/almeidacavalcante/sandbox/tree/master/tab)
 
 ## Conclusion
 

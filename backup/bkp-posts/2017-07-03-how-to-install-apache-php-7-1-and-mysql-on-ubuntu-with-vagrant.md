@@ -121,7 +121,7 @@ Now, usually when you set up a production server, you can navigate to the IP add
 I'm running my virtual machine in the following directory.
 
 ```bash
-/Users/taniarascia/Dev/VirtualMachines/ubuntu
+/Users/almeidacavalcante/Dev/VirtualMachines/ubuntu
 ```
 
 Within this directory, you'll see two files - **.vagrant**, and **Vagrantfile**. Open your **Vagrantfile**, as this is the local configuration file we'll need to edit to make any changes.

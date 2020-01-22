@@ -15,7 +15,7 @@ tags:
 
 React doesn't come with a built-in router, but we can easily achieve routing with the `react-router-dom` library. **Routing** is how a web applications direct traffic. (If you know what routing is, feel free to skip this section.)
 
-Example: If you go to [taniarascia.com](/), you end up on my home page. If you go to [taniarascia.com/me](/me), you're redirected to my about me page. If you go to [taniarascia.com/categories/javascript](/categories/javascript) or [taniarascia.com/categories/css](/categories/css), you end up on a category listing page. The routes for these pages look something like this:
+Example: If you go to [almeidacavalcante.com](/), you end up on my home page. If you go to [almeidacavalcante.com/me](/me), you're redirected to my about me page. If you go to [almeidacavalcante.com/categories/javascript](/categories/javascript) or [almeidacavalcante.com/categories/css](/categories/css), you end up on a category listing page. The routes for these pages look something like this:
 
 - `/` - root
 - `/:page_id` - page
@@ -27,12 +27,12 @@ This website also happens to be a **Single Page Application** (or SPA) - only on
 
 I'm going to show you how to set up a simple SPA in React with `react-router-dom`, and pull in data dynamically through the URL. Below is the source of the completed project if you get lost along the way.
 
-- [View Source](https://github.com/taniarascia/router-example)
+- [View Source](https://github.com/almeidacavalcante/router-example)
 
 #### Prerequisites
 
-- Read [Getting Started with React](https://www.taniarascia.com/getting-started-with-react/) or [Build a React App with Hooks](https://www.taniarascia.com/crud-app-in-react-with-hooks/) if you don't know React or React Hooks yet.
-- Read [How to Connect to an API in JavaScript](https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/) if you don't know how to work with APIs at all.
+- Read [Getting Started with React](https://www.almeidacavalcante.com/getting-started-with-react/) or [Build a React App with Hooks](https://www.almeidacavalcante.com/crud-app-in-react-with-hooks/) if you don't know React or React Hooks yet.
+- Read [How to Connect to an API in JavaScript](https://www.almeidacavalcante.com/how-to-connect-to-an-api-with-javascript/) if you don't know how to work with APIs at all.
 
 ## Installation
 
@@ -43,7 +43,7 @@ npx create-react-app router-example
 ```
 
 ```terminal
-Creating a new React app in /Users/taniarascia/dev/sandbox/router-example.
+Creating a new React app in /Users/almeidacavalcante/dev/sandbox/router-example.
 
 Installing packages. This might take a couple of minutes.
 Installing react, react-dom, and react-scripts...
@@ -123,7 +123,7 @@ We're matching the root route (`/`) to `HomePage`, and dynamically matching any 
 </Switch>
 ```
 
-This would ensure that `taniarascia.com/categories` would go to a page listing all categories, but `taniarascia.com/categories/javascript` would go to a completely different template for the inidiviual category listing.
+This would ensure that `almeidacavalcante.com/categories` would go to a page listing all categories, but `almeidacavalcante.com/categories/javascript` would go to a completely different template for the inidiviual category listing.
 
 ## Link
 
@@ -140,7 +140,7 @@ export default function HomePage() {
     <div className="container">
       <h1>Home Page</h1>
       <p>
-        <Link to="/taniarascia">taniarascia</Link> on GitHub.
+        <Link to="/almeidacavalcante">almeidacavalcante</Link> on GitHub.
       </p>
     </div>
   )
@@ -153,9 +153,9 @@ So now I'm going to my first route, the root route which is loading `HomePage`, 
 
 ## Dynamic Route Parameter
 
-Our `Link` is navigating to `/taniarascia`, which will match the `/:id` parameter in `Route`. In order to dynamically get the content from the URL - in this case, `taniarascia` - we'll use `match.params.id` from the `props`.
+Our `Link` is navigating to `/almeidacavalcante`, which will match the `/:id` parameter in `Route`. In order to dynamically get the content from the URL - in this case, `almeidacavalcante` - we'll use `match.params.id` from the `props`.
 
-I'm going to use that parameter to make a call to the GitHub API and retrieve my data. In this example I'll be using Hooks, so if you're not familiar with them, please read [Building a CRUD App with Hooks](https://www.taniarascia.com/crud-app-in-react-with-hooks/).
+I'm going to use that parameter to make a call to the GitHub API and retrieve my data. In this example I'll be using Hooks, so if you're not familiar with them, please read [Building a CRUD App with Hooks](https://www.almeidacavalcante.com/crud-app-in-react-with-hooks/).
 
 <div class="filename">src/pages/UserPage.js</div>
 
@@ -225,6 +225,6 @@ export default function UserPage(props) {
 
 If you got lost anywhere along the way, view the source on GitHub.
 
-- [View Source](https://github.com/taniarascia/router-example)
+- [View Source](https://github.com/almeidacavalcante/router-example)
 
 Also, there is a caveat: if you want to use this on GitHub Pages, it's not smart enough to realize that `you.github.io/repo/:id` should direct to `/:id`. If you want to host on GitHub pages and encounter this issue, [hosting your single page app on GitHub Pages](https://itnext.io/so-you-want-to-host-your-single-age-react-app-on-github-pages-a826ab01e48) will help you out.

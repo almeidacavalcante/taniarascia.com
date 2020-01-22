@@ -11,7 +11,7 @@ tags:
   - setup
 ---
 
-Did you read about [how to set up a local server environment](http://www.taniarascia.com/local-environment), or do you already know how to do that? The next step is setting up [virtual hosts](https://httpd.apache.org/docs/2.2/vhosts/). I've found most - if not all - of the resources and tutorials about setting up virtual hosts to be lacking. I'm going to set it up for the first time on the laptop I'm on, so I'll be able to guarantee every step.
+Did you read about [how to set up a local server environment](http://www.almeidacavalcante.com/local-environment), or do you already know how to do that? The next step is setting up [virtual hosts](https://httpd.apache.org/docs/2.2/vhosts/). I've found most - if not all - of the resources and tutorials about setting up virtual hosts to be lacking. I'm going to set it up for the first time on the laptop I'm on, so I'll be able to guarantee every step.
 
 At this point, MAMP is set up, and going to `http://localhost:8888` will take you to the document root you set.
 

@@ -15,7 +15,7 @@ tags:
 
 <blockquote class="quotation"><p>This post was featured in <a href="https://www.gatsbyjs.org/blog/2019-03-21-migrating-from-wordpress-to-gatsby/">the official Gatsby blog</a>!</p></blockquote>
 
-On September 24th, 2015, I made the [first post](/getting-started-with-git) on this blog, which was a custom self-hosted WordPress theme. I discovered Git, I discovered WordPress, and I [made 1,039 commits](https://github.com/taniarascia/oblate), in which I obsessively [designed](https://www.taniarascia.com/version-2-0-website-redesign-863-commits-later) and [redesigned](https://www.taniarascia.com/website-redesign-version-4-0) the site.
+On September 24th, 2015, I made the [first post](/getting-started-with-git) on this blog, which was a custom self-hosted WordPress theme. I discovered Git, I discovered WordPress, and I [made 1,039 commits](https://github.com/almeidacavalcante/oblate), in which I obsessively [designed](https://www.almeidacavalcante.com/version-2-0-website-redesign-863-commits-later) and [redesigned](https://www.almeidacavalcante.com/website-redesign-version-4-0) the site.
 
 I've had quite a bit of experience with WordPress. Once I learned how to make the blog, I wrote [Developing a WordPress Theme from Scratch](/developing-a-wordpress-theme-from-scratch), the post that has had millions of hits, hundreds of comments, made me plenty of friends, and launched my blogging career. I also worked as a WordPress developer for two years.
 
@@ -72,7 +72,7 @@ prettier
   --parser "markdown"  "*.md"
 ```
 
-- I basically had to re-do all the styles, using [Primitive](https://taniarascia.github.io/primitive) as the base of the style system as I haven't caught on to the idea of using CSS-in-JS yet.
+- I basically had to re-do all the styles, using [Primitive](https://almeidacavalcante.github.io/primitive) as the base of the style system as I haven't caught on to the idea of using CSS-in-JS yet.
 - I `scp`'d the images from the server to an `images` folder.
 - I used some regex to delete all WordPress thumbnails, e.g. all images that end in `150x150`, `300x300` and `1024px1024px` or any variation thereof, then do a find/replace all to make sure all files were linking to `../images/file.ext` instead of `wp-content/uploads/file.ext`, then remove the thumbnail url names from all posts.
 - I manually saved all my thumbnails and moved them to a thumbnails folder so I could reuse them easily across multiple posts.

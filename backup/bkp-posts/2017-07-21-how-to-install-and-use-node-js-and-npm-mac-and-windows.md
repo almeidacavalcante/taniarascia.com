@@ -17,7 +17,7 @@ In order to use almost any development tools based in JavaScript, you'll need to
 
 I find myself writing about this over and over again in the prerequisites of an article I've begun to write. I'd prefer to write one definitive guide to refer to in the future, so here it is.
 
-- [View on GitHub](https://github.com/taniarascia/node-test)
+- [View on GitHub](https://github.com/almeidacavalcante/node-test)
 
 #### Prerequisites
 
@@ -160,7 +160,7 @@ The rest you can just press enter and skip. Now you'll notice we have a **packag
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Tania Rascia",
+  "author": "Almeida Cavalcante",
   "license": "ISC"
 }
 ```
@@ -256,6 +256,6 @@ In this tutorial, we learned the following:
 - How to install a dependency with npm
 - How to run a file using a **node_modules** dependency in a shell
 
-If you got lost at any point, [view the source on GitHub](https://github.com/taniarascia/node-test).
+If you got lost at any point, [view the source on GitHub](https://github.com/almeidacavalcante/node-test).
 
 With this knowledge, you're ready to start using Gulp, Grunt, Webpack, Browserify, or anything else that depends on Node.js or npm.

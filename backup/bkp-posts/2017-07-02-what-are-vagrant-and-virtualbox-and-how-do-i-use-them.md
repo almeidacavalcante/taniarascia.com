@@ -65,7 +65,7 @@ Again, I chose Mac OS X.
 Create a directory for your virtual host to live. I created a **VirtualMachines** directory (which will potentially contain all of my virtual machine installations), and made a new directory within called **ubuntu** for this specific installation to live. The whole path is as follows:
 
 ```bash
-/Users/taniarascia/dev/virtualmachines/ubuntu
+/Users/almeidacavalcante/dev/virtualmachines/ubuntu
 ```
 
 Your path will be slightly different for Windows, using `C:/`, but otherwise will be the same idea.

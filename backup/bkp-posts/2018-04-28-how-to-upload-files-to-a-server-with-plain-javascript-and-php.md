@@ -19,7 +19,7 @@ In this tutorial, we're going to build an upload form with **HTML**, send the fi
 
 Note that this is not meant to be fully functional, secure, validated, production code. It is simply meant to demonstrate in a simple and straightforward manner how to make your first upload form.
 
-- [View Source on GitHub](https://github.com/taniarascia/upload)
+- [View Source on GitHub](https://github.com/almeidacavalcante/upload)
 
 #### Prerequisites
 
@@ -427,7 +427,7 @@ Congratulations, you've successfully created a functioning upload form. This is 
 
 The complete source is on GitHub.
 
-- [View Source on GitHub](https://github.com/taniarascia/upload)
+- [View Source on GitHub](https://github.com/almeidacavalcante/upload)
 
 Note that this is not a complete, secure, production process. Here are a few things to take into consideration:
 

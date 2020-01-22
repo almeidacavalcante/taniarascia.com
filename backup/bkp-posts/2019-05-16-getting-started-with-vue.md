@@ -40,8 +40,8 @@ We're going to create a small application with Vue. The app will be a simple emp
 
 I've created a live demo and put the source up on GitHub.
 
-- [View demo](https://taniarascia.github.io/vue-tutorial/)
-- [View source](https://github.com/taniarascia/vue-tutorial)
+- [View demo](https://almeidacavalcante.github.io/vue-tutorial/)
+- [View source](https://github.com/almeidacavalcante/vue-tutorial)
 
 (You can also [view the demo on CodeSandbox](https://codesandbox.io/s/xwj445z6w).)
 
@@ -224,7 +224,7 @@ The data and logic for the component goes in the `<script>` tag, but only `name`
 
 Now let's start actually building this app.
 
-As always, this tutorial is about functionality, not styles, so I'm just going to link to [Primitive UI](https://github.com/taniarascia/primitive) in the `index.html` file to add some easy default styles.
+As always, this tutorial is about functionality, not styles, so I'm just going to link to [Primitive UI](https://github.com/almeidacavalcante/primitive) in the `index.html` file to add some easy default styles.
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/primitive-ui/dist/css/main.css" />
@@ -784,7 +784,7 @@ this.$refs.first.focus()
 
 Now after you submit the focus will automatically go to the first field in the form. The `@keypress` event to `clearStatus` we added to it before will ensure the success or error message goes away once you start typing.
 
-> Our `EmployeeForm` file is complete, and you can [view the source](https://github.com/taniarascia/vue-tutorial/blob/master/src/components/EmployeeForm.vue) of the completed file in case you got lost along the way.
+> Our `EmployeeForm` file is complete, and you can [view the source](https://github.com/almeidacavalcante/vue-tutorial/blob/master/src/components/EmployeeForm.vue) of the completed file in case you got lost along the way.
 
 ## Deleting Items
 
@@ -1135,7 +1135,7 @@ Okay, all API calls should be working properly, and we're getting data from JSON
 
 ![](../images/vue13.png)
 
-And the app is complete! You can [check out the live demo](https://taniarascia.github.io/vue-tutorial/) or [view the source](https://github.com/taniarascia/vue-tutorial).
+And the app is complete! You can [check out the live demo](https://almeidacavalcante.github.io/vue-tutorial/) or [view the source](https://github.com/almeidacavalcante/vue-tutorial).
 
 ## Deploying a Build to GitHub Pages
 
@@ -1194,5 +1194,5 @@ From here, you might want to look into [Vuex](https://vuex.vuejs.org/) for state
 
 A lot of work went into creating this app and tutorial, and if you enjoyed it I hope you share it with anyone you think might benefit from it! If you see any mistakes, please let me know.
 
-- [View Source](https://github.com/taniarascia/vue-tutorial)
-- [View Demo](https://taniarascia.github.io/vue-tutorial/)
+- [View Source](https://github.com/almeidacavalcante/vue-tutorial)
+- [View Demo](https://almeidacavalcante.github.io/vue-tutorial/)

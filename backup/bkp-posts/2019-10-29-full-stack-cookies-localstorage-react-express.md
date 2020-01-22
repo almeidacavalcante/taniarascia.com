@@ -345,7 +345,7 @@ devServer: {
 
 Setting `historyApiFallback` will ensure the SPA routes work properly. It's also important to set the `publicPath` in Webpack to `/`, to ensure the routes in production serve the bundles from the root.
 
-The [Webpack Boilerplate](https://github.com/taniarascia/webpack-boilerplate) is a good example to use for how to set up Webpack (in this case, you would just move everything from building directly to `src` to building to `src/client`).
+The [Webpack Boilerplate](https://github.com/almeidacavalcante/webpack-boilerplate) is a good example to use for how to set up Webpack (in this case, you would just move everything from building directly to `src` to building to `src/client`).
 
 ## Conclusion
 

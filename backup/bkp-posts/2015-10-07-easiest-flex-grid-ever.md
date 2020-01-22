@@ -17,7 +17,7 @@ In the past I used very simple CSS float grids for website templating, but Flexb
 
 ## The Demo
 
-See the Pen [Easiest Flex Grid Ever](http://codepen.io/taniarascia/pen/rOLEGe/).
+See the Pen [Easiest Flex Grid Ever](http://codepen.io/almeidacavalcante/pen/rOLEGe/).
 
 We have semantic options for naming the tags and classes, but I'll start off with a simple row and column based naming structure, in the vein of [Bootstrap](http://getbootstrap.com/css/#grid), [Foundation](http://foundation.zurb.com/docs/components/grid.html), [Skeleton](http://getskeleton.com), and just about every other CSS framework.
 

@@ -1,13 +1,13 @@
 ---
-title: Tania Rascia
+title: Almeida Cavalcante
 slug: resume
 template: page
 ---
 
 ### Front End Software Developer
 
-- [taniarascia.com](https://www.taniarascia.com)
-- [hello@taniarascia.com](mailto:hello@taniarascia.com)
+- [almeidacavalcante.com](https://www.almeidacavalcante.com)
+- [hello@almeidacavalcante.com](mailto:hello@almeidacavalcante.com)
 - Chicago, IL
 
 ## Technical Skills
@@ -61,25 +61,25 @@ RESTful API Design, CI/CD, Agile Methodology, MVC Architecture, Secure Authentic
 
 ### TakeNote
 
-**Web-based Markdown Note-taking App** - [Source](https://github.com/taniarascia/takenote) - _2019_
+**Web-based Markdown Note-taking App** - [Source](https://github.com/almeidacavalcante/takenote) - _2019_
 
 A simple, Markdown-based note-taking app for the web, written in TypeScript and functional React.
 
 ### Chip8.js
 
-**Retro Game Emulator** - [Source](https://github.com/taniarascia/chip8) - _2018 - 2019_
+**Retro Game Emulator** - [Source](https://github.com/almeidacavalcante/chip8) - _2018 - 2019_
 
 An emulator for Chip-8 games implementing browser, terminal, and graphical front ends.
 
 ### Laconia
 
-**MVC Authentication Framework** - [Source](https://github.com/taniarascia/laconia) - _2018_
+**MVC Authentication Framework** - [Source](https://github.com/almeidacavalcante/laconia) - _2018_
 
 An MVC framework used as a helpful starting point for implementing authentication, object-oriented architecture, MVC concepts, routing and databases.
 
 ### Primitive
 
-**Front End Toolkit** - [Source](https://github.com/taniarascia/primitive)
+**Front End Toolkit** - [Source](https://github.com/almeidacavalcante/primitive)
 
 A minimalist front-end design toolkit built with Sass for developing responsive, browser-consistent web apps.
 
@@ -107,4 +107,4 @@ A minimalist front-end design toolkit built with Sass for developing responsive,
 
 - Getting Started With React article featured in official React documentation as React For Beginners. [Source](https://reactjs.org/docs/getting-started.html)
 - Interviewed in the Egghead.io Podcast in Switching Careers and Learning in Public with Joel Hooks. [Source](https://egghead.io/podcasts/switching-careers-and-learning-in-public-with-tania-rascia)
-- Wrote published articles for DigitalOcean, Envato Tuts+, SitePoint, LogRocket, Codrops, and Progress. [Source](https://www.taniarascia.com/publications)
+- Wrote published articles for DigitalOcean, Envato Tuts+, SitePoint, LogRocket, Codrops, and Progress. [Source](https://www.almeidacavalcante.com/publications)

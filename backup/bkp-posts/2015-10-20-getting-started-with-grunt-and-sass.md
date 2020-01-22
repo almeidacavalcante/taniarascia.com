@@ -194,7 +194,7 @@ This might come up, which doesn't matter. Grunt wants you to have a README.md an
 ```js
 "repository": {
     "type": "git",
-    "url": "https://github.com/taniarascia/startgrunt.git"
+    "url": "https://github.com/almeidacavalcante/startgrunt.git"
 }
 ```
 
@@ -562,6 +562,6 @@ Running "uglify:build" (uglify) task
 
 That was a lot of steps. No wonder you didn't want to do this before.
 
-I've [set up a GitHub repository](https://github.com/taniarascia/startgrunt) of the project for you to play with.
+I've [set up a GitHub repository](https://github.com/almeidacavalcante/startgrunt) of the project for you to play with.
 
-- [View source on GitHub](https://github.com/taniarascia/startgrunt)
+- [View source on GitHub](https://github.com/almeidacavalcante/startgrunt)

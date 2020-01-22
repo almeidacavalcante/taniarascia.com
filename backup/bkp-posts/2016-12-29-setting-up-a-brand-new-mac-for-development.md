@@ -20,7 +20,7 @@ I documented everything I did after taking the Mac out of the box. This post wil
 
 I'm a front end web developer, and most of the software I install will pertain to that. I still have much to learn, but this process will setup my Mac to run [Git](https://git-scm.com/), [Jekyll](https://jekyllrb.com/), [Gulp](http://gulpjs.com/), [Sass](http://sass-lang.com/), an [Apache](https://www.apache.org/) server, and more.
 
-- [View on GitHub](https://github.com/taniarascia/mac)
+- [View on GitHub](https://github.com/almeidacavalcante/mac)
 
 I've included all the commands from this article without any of the explanation on a GitHub readme. Feel free to fork, modify, and keep for your own future records.
 

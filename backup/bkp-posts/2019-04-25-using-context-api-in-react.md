@@ -18,7 +18,7 @@ I'm going to leave some brief, concise steps to getting started with Context her
 
 ## Prerequisite
 
-- Read [Getting Started with React](https://www.taniarascia.com/getting-started-with-react/) or [Build a React App with Hooks](https://www.taniarascia.com/crud-app-in-react-with-hooks/) if you don't know React or React Hooks yet.
+- Read [Getting Started with React](https://www.almeidacavalcante.com/getting-started-with-react/) or [Build a React App with Hooks](https://www.almeidacavalcante.com/crud-app-in-react-with-hooks/) if you don't know React or React Hooks yet.
 
 ## Create Context
 

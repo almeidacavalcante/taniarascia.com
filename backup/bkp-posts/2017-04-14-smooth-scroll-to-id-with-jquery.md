@@ -13,7 +13,7 @@ tags:
 
 Here's a quick snippet of jQuery code I use often when I need to smoothly scroll to an ID. Just change the `500` to whatever speed (in milliseconds) you want the page to scroll at.
 
-[View Demo](http://codepen.io/taniarascia/pen/MJEXZj)
+[View Demo](http://codepen.io/almeidacavalcante/pen/MJEXZj)
 
 ```js
 $('a[href*="#"]').on('click', function(e) {

@@ -12,7 +12,7 @@ tags:
 
 I'm a self-taught web developer who has been working professionally in the field since June, 2015. I'm going to write about the setup, programs, and plugins I use on a daily basis with some brief descriptions and alternate options.
 
-- [View on GitHub](https://github.com/taniarascia/setup)
+- [View on GitHub](https://github.com/almeidacavalcante/setup)
 
 #### Disclaimer
 
@@ -113,7 +113,7 @@ Brackets is not the most popular choice for text editors, but after downloading 
 
 All extensions are installed by going to `File > Extension Manager`.
 
-- [New Moon Color Theme](https://github.com/taniarascia/new-moon) - my color theme.
+- [New Moon Color Theme](https://github.com/almeidacavalcante/new-moon) - my color theme.
 - [Emmet](https://github.com/emmetio/brackets-emmet) - simplify writing HTML.
 - [Beautify](https://github.com/brackets-beautify/brackets-beautify) - formatting and indentation for files.
 - [Custom Working Tabs](https://github.com/DH3ALEJANDRO/custom-work-for-brackets) - add tabs.
@@ -200,7 +200,7 @@ A preprocessor is a program that takes a bit of code and compiles it into a diff
 
 > A base stylesheet used as a starting point for designing a website.
 
-### **I use:** [Primitive](https://taniarascia.github.io/primitive/)
+### **I use:** [Primitive](https://almeidacavalcante.github.io/primitive/)
 
 **Other Options:** [Bootstrap](http://getbootstrap.com/), [Foundation](http://foundation.zurb.com/)
 

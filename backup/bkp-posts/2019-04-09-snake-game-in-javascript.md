@@ -16,12 +16,12 @@ Usually when you think of a JavaScript game, you probably imagine something play
 
 For a recent Node.js project, I wanted to render pixels to a terminal interface instead of a browser. For this, I was going to need to find and learn how to use a terminal UI library like [curses](https://en.wikipedia.org/wiki/Curses_(programming_library)). The most popular one in the JavaScript environment is [blessed](https://github.com/chjj/blessed).
 
-I thought writing the classic Snake game would be a fun and easy project to get used to blessed, so I wrote [🐍 Snek.js](https://github.com/taniarascia/snek).
+I thought writing the classic Snake game would be a fun and easy project to get used to blessed, so I wrote [🐍 Snek.js](https://github.com/almeidacavalcante/snek).
 
-You can [check out the source](https://github.com/taniarascia/snek), or download it and play it yourself:
+You can [check out the source](https://github.com/almeidacavalcante/snek), or download it and play it yourself:
 
 ```bash
-git clone https://github.com/taniarascia/snek
+git clone https://github.com/almeidacavalcante/snek
 cd snek
 yarn && yarn play # or: npm install && npm run play
 ```
@@ -112,7 +112,7 @@ tick() {
 
 ## Conclusion
 
-Again, you can view the source on GitHub at [🐍 Snek.js](https://github.com/taniarascia/snek).
+Again, you can view the source on GitHub at [🐍 Snek.js](https://github.com/almeidacavalcante/snek).
 
 I learned a lot writing and refactoring this over the past few days. I encountered plenty of bugs in my first iteration, such as the snake being able to collide into all but the last tail segment, and a major issue where the blessed boxes weren't being garbage collected, and the game got slower and slower as it became less efficient and more intensive to run.
 

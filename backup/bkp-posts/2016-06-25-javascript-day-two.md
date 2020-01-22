@@ -165,7 +165,7 @@ if (doorIsLocked && hasKey) {
 }
 ```
 
-[Demo](http://codepen.io/taniarascia/pen/dXNeBw?editors=0010)
+[Demo](http://codepen.io/almeidacavalcante/pen/dXNeBw?editors=0010)
 
 Since the door is locked and you have the key, "You unlocked the door! You open the door." will print to the document.
 
@@ -182,7 +182,7 @@ if (money < swordCost) {
 }
 ```
 
-[Demo](http://codepen.io/taniarascia/pen/XKpqLV?editors=0010)
+[Demo](http://codepen.io/almeidacavalcante/pen/XKpqLV?editors=0010)
 
 Since you have less in your inventory than the cost of the sword, "You don't have enough money to buy this sword!" will print to the document.
 
@@ -231,7 +231,7 @@ switch (season) {
 }
 ```
 
-[Demo](http://codepen.io/taniarascia/pen/jryxpq?editors=0010)
+[Demo](http://codepen.io/almeidacavalcante/pen/jryxpq?editors=0010)
 
 Since the season was "Autumn", "Drink a pumpkin spice latte!" gets printed to the document. For each `case`, a different bit of executes. The `break` keyword causes the `switch` code to stop running when a match is found. If no matches are found, the `default` code will execute, just like an `else`. In this case, "Study JavaScript" is always a good activity, no matter the season (but you're less enthusiastic about it, so no exclamation point).
 

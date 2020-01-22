@@ -27,7 +27,7 @@ This will only take me a few minutes to recreate. It's not going to be exactly t
 
 ### The Demo
 
-See the Pen [Off Canvas Navigation with CSS3 Transitions](http://codepen.io/taniarascia/pen/QjBwpB/)
+See the Pen [Off Canvas Navigation with CSS3 Transitions](http://codepen.io/almeidacavalcante/pen/QjBwpB/)
 
 ```html
 <main>
@@ -354,4 +354,4 @@ aside nav ul li a:hover {
 
 That concludes the tutorial! The key at this point is to use what you've learned and be creative with it. Also, don't forget to [add vendor prefixes](https://github.com/postcss/autoprefixer) to your code.
 
-- [View Demo](http://codepen.io/taniarascia/pen/QjBwpB)
+- [View Demo](http://codepen.io/almeidacavalcante/pen/QjBwpB)

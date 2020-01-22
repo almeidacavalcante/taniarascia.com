@@ -46,7 +46,7 @@ Everything else you might happen across while studying the Bootstrap documentati
 
 ## Why is a framework important? Do I need to use one?
 
-You absolutely don't _need_ to use a framework - I recently wrote an article called [You Don't Need a Framework: Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/), which I would recommend reading if you want to learn more about responsive design. However, frameworks are very popular and have many benefits, so it's important to learn how to work with them.
+You absolutely don't _need_ to use a framework - I recently wrote an article called [You Don't Need a Framework: Understanding the Fundamentals of Responsive Design](http://www.almeidacavalcante.com/you-dont-need-a-framework/), which I would recommend reading if you want to learn more about responsive design. However, frameworks are very popular and have many benefits, so it's important to learn how to work with them.
 
 Some of the ways that frameworks can help you:
 
@@ -185,7 +185,7 @@ A `container` sets a `max-width` on the content within your full-width navbar.
 <div class="container"></div>
 ```
 
-The `navbar-header` class contains the "brand" information, where you can put your logo or company name. We're making a website for fictional tech company **Balance Web Development** (well, it's better than [their old site!](http://taniarascia.github.io/balancewebdev/1996/)).
+The `navbar-header` class contains the "brand" information, where you can put your logo or company name. We're making a website for fictional tech company **Balance Web Development** (well, it's better than [their old site!](http://almeidacavalcante.github.io/balancewebdev/1996/)).
 
 The `button` is hidden on desktop, and becomes a dropdown hamburger menu on mobile (each `<span class="icon-bar">` is a line in the hamburger).
 
@@ -434,7 +434,7 @@ The final touches to my code are going to be centering the bottom call-out, addi
 
 With one small page worth of code, I've completely transformed my layout. From here, you can be much more creative.
 
-Of course, I also put the demo up as a [Codepen.](http://codepen.io/taniarascia/pen/yYQYpO#0)
+Of course, I also put the demo up as a [Codepen.](http://codepen.io/almeidacavalcante/pen/yYQYpO#0)
 
 ## Conclusion
 

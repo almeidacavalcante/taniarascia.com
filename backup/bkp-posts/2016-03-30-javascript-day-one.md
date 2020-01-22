@@ -199,7 +199,7 @@ JavaScript doesn't have a built in "print" or "echo" keyword like other language
 In the example below, I will declare a simple variable, assign a string to it, and write the output of the variable to the HTML document.
 
 > **Hello, World!** is a tradition in computer programming in which the goal is to create an extremely simple program that outputs "Hello, World!". The intent is to verify that your environment is running properly and the correct syntax is being used.
-> See the Pen [JS Day One: Echoing a Variable](http://codepen.io/taniarascia/pen/VazVPM/) by Tania ([@taniarascia](http://codepen.io/taniarascia)) on [CodePen](http://codepen.io).
+> See the Pen [JS Day One: Echoing a Variable](http://codepen.io/almeidacavalcante/pen/VazVPM/) by Tania ([@almeidacavalcante](http://codepen.io/almeidacavalcante)) on [CodePen](http://codepen.io).
 
 ## Practice
 

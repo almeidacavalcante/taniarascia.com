@@ -17,7 +17,7 @@ Recently, I've been exploring Chicago and visiting various local coffeeshops to 
 
 On another occasion, I used Google Maps API to [map out multiple store locations](/google-maps-apis-for-multiple-locations/) for restaurant concepts at my last job. For this project, I decided to use [Leaflet](http://leafletjs.com/), a JavaScript library for interactive maps.
 
-Here's the final map project that I created: [Cafétography](https://taniarascia.github.io/coffee/)
+Here's the final map project that I created: [Cafétography](https://almeidacavalcante.github.io/coffee/)
 
 For this article, you can either create your own web map for something in your own neighborhood or the world that you would like to track, or you can simply view my examples of `map()`, `filter()` and `reduce()`.
 
@@ -33,7 +33,7 @@ Let's do some problem solving.
 
 ## Setting up the web map
 
-Here is an [example project on CodePen](https://codepen.io/taniarascia/pen/brRaVE) you can use. All it requires is an html file (**index.html**) with the prerequisite CSS and JavaScript Leaflet files loading in:
+Here is an [example project on CodePen](https://codepen.io/almeidacavalcante/pen/brRaVE) you can use. All it requires is an html file (**index.html**) with the prerequisite CSS and JavaScript Leaflet files loading in:
 
 <div class="filename">index.html</div>
 
@@ -86,7 +86,7 @@ Once that's all set, here's how your loaded in Leaflet web map will look.
 
 ![](../images/Screen-Shot-2017-08-10-at-3.34.59-PM.png)
 
-Again, you can find and fork a working version of the whole thing [right here](https://codepen.io/taniarascia/pen/brRaVE) on CodePen, but you'll have to transfer it to your own server or work on it locally.
+Again, you can find and fork a working version of the whole thing [right here](https://codepen.io/almeidacavalcante/pen/brRaVE) on CodePen, but you'll have to transfer it to your own server or work on it locally.
 
 ## Adding location markers with JSON
 
@@ -405,11 +405,11 @@ for (let neighborhood in neighborhoodCount) {
 }
 ```
 
-I added some CSS, a coffee cup image as the marker, a different map, and more locations, which I won't go into as they're not the focus of the article. The source for the whole **scripts.js** file that we just created [is right here.](https://github.com/taniarascia/coffee/blob/master/js/scripts.js) Below is what the final version looks like.
+I added some CSS, a coffee cup image as the marker, a different map, and more locations, which I won't go into as they're not the focus of the article. The source for the whole **scripts.js** file that we just created [is right here.](https://github.com/almeidacavalcante/coffee/blob/master/js/scripts.js) Below is what the final version looks like.
 
 ![](../images/Screen-Shot-2017-08-10-at-10.37.30-PM.png)
 
-You can [view the final source for the map here](https://github.com/taniarascia/coffee), or [view the completed project here](https://taniarascia.github.io/coffee/) if anything was unclear.
+You can [view the final source for the map here](https://github.com/almeidacavalcante/coffee), or [view the completed project here](https://almeidacavalcante.github.io/coffee/) if anything was unclear.
 
 ## A summary of map(), filter(), and reduce()`
 

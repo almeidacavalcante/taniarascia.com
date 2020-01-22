@@ -14,7 +14,7 @@ tags:
 
 It's hard to style basic web components if you've never done it before. You want your **buttons** and **forms** to look good and also be cross-browser consistent. The easiest solution is to use a framework like Bootstrap or Foundation, but that won't help you understand the fundamentals. It's actually not as hard as it seems, and in this article I'll show you how.
 
-To make life easy for myself, I've compiled all these into my own framework, [Primitive](http://taniarascia.github.io/primitive/) (which also incorporates Sass and Gulp) and I encourage you to make your own as well, even if only for learning purposes.
+To make life easy for myself, I've compiled all these into my own framework, [Primitive](http://almeidacavalcante.github.io/primitive/) (which also incorporates Sass and Gulp) and I encourage you to make your own as well, even if only for learning purposes.
 
 #### Prerequisites
 
@@ -368,9 +368,9 @@ $input-fields: (
 
 Here's the full code for HTML and CSS for the forms and buttons.
 
-- [Forms](http://codepen.io/taniarascia/pen/pNJeGG)
-- [Buttons](http://codepen.io/taniarascia/pen/vyBRXL)
+- [Forms](http://codepen.io/almeidacavalcante/pen/pNJeGG)
+- [Buttons](http://codepen.io/almeidacavalcante/pen/vyBRXL)
 
 ## Conclusion
 
-Hopefully now you feel confident styling forms and buttons without relying on a CSS framework. As I mentioned at the beginning of the article, I've applied all of this into making [my own small framework](http://taniarascia.github.io/primitive/), which really helped me when I was learning, and I now use for all my own projects. If there is a positive response to this guide, I could also make a follow up for additional components, like navigation, accordions, cards, etc.
+Hopefully now you feel confident styling forms and buttons without relying on a CSS framework. As I mentioned at the beginning of the article, I've applied all of this into making [my own small framework](http://almeidacavalcante.github.io/primitive/), which really helped me when I was learning, and I now use for all my own projects. If there is a positive response to this guide, I could also make a follow up for additional components, like navigation, accordions, cards, etc.

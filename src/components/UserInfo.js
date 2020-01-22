@@ -8,11 +8,11 @@ export default class UserInfo extends Component {
         <div className="container note-container">
           <div className="flex-author">
             <div className="flex-avatar">
-              <img className="avatar" src={tania} alt="Tania Rascia" />
+              <img className="avatar" src={tania} alt="Almeida Cavalcante" />
             </div>
             <div>
               <p>
-                I’m Tania Rascia. I document everything I learn and help thousands of people start
+                I’m Almeida Cavalcante. I document everything I learn and help thousands of people start
                 coding careers.{' '}
                 <strong>
                   My site has no ads, sponsors, or bullshit. If you enjoy my content, please

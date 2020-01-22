@@ -139,9 +139,9 @@ You may be familiar with [Bootstrap's grid](http://getbootstrap.com/css/#grid), 
 
 There is some controversy surrounding grids, in that they're usually not [semantic](https://en.wikipedia.org/wiki/Semantic_HTML), and their names don't make sense based on content. However, they're great for prototyping, and it's very easy to convert them into semantic HTML5 tags if you wish. But first, I'm going to set it up the traditional way so you can see how it works.
 
-> Want to use the Flexbox layout model instead of a CSS float grid? [Here is a tutorial](http://www.taniarascia.com/easiest-flex-grid-ever/) on how to make the same grid in Flexbox.
+> Want to use the Flexbox layout model instead of a CSS float grid? [Here is a tutorial](http://www.almeidacavalcante.com/easiest-flex-grid-ever/) on how to make the same grid in Flexbox.
 
-See the Pen [CSS Float Grid](http://codepen.io/taniarascia/pen/GpGdyy/)
+See the Pen [CSS Float Grid](http://codepen.io/almeidacavalcante/pen/GpGdyy/)
 
 I prefer not to use a fixed column amount for my grids. Foundation, Bootstrap, and [Skeleton](http://getskeleton.com) all run on 12 column grids. If you only plan to use 5, or need 15, these systems would be hard to modify.
 
@@ -236,11 +236,11 @@ Navigation is definitely the most tricky part about the whole proces. There are 
 
 It's important to think about your content when designing your layout. Just because something is trendy, doesn't always mean is provides a good user experience. I would suggest highlighting the main callouts of your site on mobile outside of the hamburger menu, if you use it.
 
-Earlier, I wrote an article [on how to make a responsive dropdown navigation bar](http://www.taniarascia.com/responsive-dropdown-navigation-bar/) from scratch. If you want a complete understanding of how it works from start to finish, I would recommend reading that article.
+Earlier, I wrote an article [on how to make a responsive dropdown navigation bar](http://www.almeidacavalcante.com/responsive-dropdown-navigation-bar/) from scratch. If you want a complete understanding of how it works from start to finish, I would recommend reading that article.
 
-See the Pen [Responsive Dropdown Navigation Bar](http://codepen.io/taniarascia/pen/dYvvYv/)
+See the Pen [Responsive Dropdown Navigation Bar](http://codepen.io/almeidacavalcante/pen/dYvvYv/)
 
-I have also created a simplified version without dropdowns and written in vanilla CSS. [Click here to view the simplified pen](http://codepen.io/taniarascia/pen/epKrPm).
+I have also created a simplified version without dropdowns and written in vanilla CSS. [Click here to view the simplified pen](http://codepen.io/almeidacavalcante/pen/epKrPm).
 
 ## Conclusion
 

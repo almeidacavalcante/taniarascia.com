@@ -15,7 +15,7 @@ A website I worked on wanted an animated, flashing neon sign. A gif is the first
 
 I used a modified method from [this guide by Rick Bradshaw](http://css3.bradshawenterprises.com/cfimg/).
 
-[View demo](http://codepen.io/taniarascia/pen/jBvKVL)
+[View demo](http://codepen.io/almeidacavalcante/pen/jBvKVL)
 
 Put the two images in an outer block element.
 

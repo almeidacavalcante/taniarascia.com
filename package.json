@@ -1,9 +1,9 @@
 {
-  "name": "taniarascia.com",
+  "name": "almeidacavalcante.com",
   "description": "Personal website running on Gatsby, React, and Node.js.",
   "version": "1.0.1",
-  "author": "Tania Rascia <hello@taniarascia.com>",
-  "repository": "git@github.com:taniarascia/taniarascia.com",
+  "author": "Almeida Cavalcante <me@almeidacavalcante.com>",
+  "repository": "git@github.com:almeidacavalcante/almeidacavalcante.com",
   "dependencies": {
     "eslint-utils": "^1.4.1",
     "gatsby": "^2.13.13",
@@ -60,7 +60,7 @@
     "write-good": "^1.0.1"
   },
   "keywords": [
-    "tania rascia",
+    "Almeida Cavalcante",
     "development",
     "dev",
     "tutorials",

@@ -11,7 +11,7 @@ tags:
   - wordpress
 ---
 
-If you already know [how to set up a local server](http://taniarascia.com/local-environment) and get WordPress up and running, migrating to a live server is extremely simple. We'll avoid the dreaded "Error establishing a database connection" once and for all.
+If you already know [how to set up a local server](http://almeidacavalcante.com/local-environment) and get WordPress up and running, migrating to a live server is extremely simple. We'll avoid the dreaded "Error establishing a database connection" once and for all.
 
 #### Prerequisites
 
@@ -26,7 +26,7 @@ If you already know [how to set up a local server](http://taniarascia.com/local-
 
 ## Migrating WordPress
 
-So, you already have a WordPress site set up, and you just want to push it to your server. You can do this through [Git and SSH](http://www.taniarascia.com/getting-started-with-git/), but for the sake of simplicity I'm just going to use [(S)FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol).
+So, you already have a WordPress site set up, and you just want to push it to your server. You can do this through [Git and SSH](http://www.almeidacavalcante.com/getting-started-with-git/), but for the sake of simplicity I'm just going to use [(S)FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol).
 
 ### Export your database to the live server
 

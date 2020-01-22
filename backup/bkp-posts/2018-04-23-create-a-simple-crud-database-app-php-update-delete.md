@@ -34,7 +34,7 @@ Everything you need to know to use and understand this tutorial is in [Create a 
 - A local PHP and MySQL environment (MAMP, XAMPP, Vagrant, or other)
 - A database management program (Sequel Pro for Mac, SQLYog for Windows)
 
-- [The codebase](https://github.com/taniarascia/pdo/tree/feba19a43e63c617c95a1f6e68825f6e3086336c) of the PDO App we created. (This link leads to the last commit prior to this article being written)
+- [The codebase](https://github.com/almeidacavalcante/pdo/tree/feba19a43e63c617c95a1f6e68825f6e3086336c) of the PDO App we created. (This link leads to the last commit prior to this article being written)
 
 #### Goals
 
@@ -44,7 +44,7 @@ Everything you need to know to use and understand this tutorial is in [Create a 
 
 ## Step 1: Set up the environment
 
-If you're following along directly from part one, you will have all the code you need to start ready and functioning. If you did the tutorial a while ago and need to get everything set up again, it's all available and up to date in this [GitHub repository](https://github.com/taniarascia/pdo). You can either download all the code as a zip and place it in your server root, or clone the repo if you know how to use Git.
+If you're following along directly from part one, you will have all the code you need to start ready and functioning. If you did the tutorial a while ago and need to get everything set up again, it's all available and up to date in this [GitHub repository](https://github.com/almeidacavalcante/pdo). You can either download all the code as a zip and place it in your server root, or clone the repo if you know how to use Git.
 
 Everything we will be editing is in the **public/** folder, as all our initial setup is out of the way. Go ahead and get everything set up and working from the place we left off, and then we can continue.
 
@@ -677,13 +677,13 @@ Finally, we'll add the value into the input on each form.
 <input name="csrf" type="hidden" value="<?php echo escape($_SESSION['csrf']); ?>">
 ```
 
-Contribution by [djhayman](https://github.com/taniarascia/pdo/pull/5).
+Contribution by [djhayman](https://github.com/almeidacavalcante/pdo/pull/5).
 
 ## Conclusion
 
 That was a lot of information. If you got lost somewhere along the way, I don't blame you! There's a reason few tutorials venture into this territory. Fortunately, all the code is up on GitHub. All you have to do is clone or download the entire repository into the root of your server, run the install script, and you're good to go with all the CRUD operations!
 
-- [View on GitHub](https://github.com/taniarascia/pdo)
+- [View on GitHub](https://github.com/almeidacavalcante/pdo)
 
 I really hope you enjoyed this article - I think learning how to make your own CRUD program is tons of fun, and a struggle if you've found the wrong resource. Since I know it needs to be said again, this is _not_ meant to be a complete, secure, production app. However, it's a great introduction and minimum viable product to getting PDO, PHP, and MySQL up and running and playing together nicely.
 

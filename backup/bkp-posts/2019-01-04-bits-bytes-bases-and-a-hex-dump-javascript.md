@@ -472,7 +472,7 @@ Now we're almost there.
 
 The only thing that remains at this point is some final formatting - adding padding to the last line if has less than 16 bytes, and separating the bytes into two blocks of eight, which isn't too important for me to explain.
 
-[Here's a gist](https://gist.github.com/taniarascia/7ff2e83577d83b85a421ab36ab2ced84) of the final version, or see below.
+[Here's a gist](https://gist.github.com/almeidacavalcante/7ff2e83577d83b85a421ab36ab2ced84) of the final version, or see below.
 
 <div class="filename">hexdump.js</div>
 

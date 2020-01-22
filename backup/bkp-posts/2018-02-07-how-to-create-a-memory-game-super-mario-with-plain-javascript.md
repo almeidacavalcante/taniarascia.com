@@ -14,7 +14,7 @@ tags:
 
 I was presented with a coding exercise to make a memory game using any language. I decided such a task really doesn't require any libraries like React or jQuery, so I made it with plain JavaScript.
 
-Since the memory game reminded me of the [card game from Super Mario 3](http://www.nesmaps.com/maps/SuperMarioBrothers3/SuperMarioBros3MapMemoryMatch.html), I decided to use that as the basis for the style of my app. You can view the completed demo [here](https://taniarascia.github.io/memory/).
+Since the memory game reminded me of the [card game from Super Mario 3](http://www.nesmaps.com/maps/SuperMarioBrothers3/SuperMarioBros3MapMemoryMatch.html), I decided to use that as the basis for the style of my app. You can view the completed demo [here](https://almeidacavalcante.github.io/memory/).
 
 #### Prerequisites
 
@@ -29,8 +29,8 @@ The premise of the game is to have a grid of 24 face-down cards. The card faces 
 
 Click the demo below to get an understanding of what we'll be creating.
 
-- [View Demo](https://taniarascia.github.io/memory/)
-- [View Source](https://github.com/taniarascia/memory)
+- [View Demo](https://almeidacavalcante.github.io/memory/)
+- [View Source](https://github.com/almeidacavalcante/memory)
 
 ## Planning
 
@@ -49,7 +49,7 @@ Before writing any code, we need to get an idea of the actual steps to take to g
 
 Now, there are probably a million and one ways to create this game. This is the way we're going to do it.
 
-Each instruction will be a version. Version 0.1, 0.2, 0.3, until reaching version 1.0. I will place a link to the JavaScript file at the end of each version so you don't get lost. [All of the versions can be found here](https://gist.github.com/taniarascia/a3b550d568f3e6b693e89786eb333988).
+Each instruction will be a version. Version 0.1, 0.2, 0.3, until reaching version 1.0. I will place a link to the JavaScript file at the end of each version so you don't get lost. [All of the versions can be found here](https://gist.github.com/almeidacavalcante/a3b550d568f3e6b693e89786eb333988).
 
 ## Setup
 
@@ -232,7 +232,7 @@ Well, that was a lot of work for step one, but now we have it! You will have 12 
 
 > So, what's the point of the `data-name` attribute? [Data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) allow us to store extra data in an HTML element. Any non-standard attribute should begin with `data-`.
 
-- [Version 0.1 Source](https://gist.githubusercontent.com/taniarascia/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.1.js)
+- [Version 0.1 Source](https://gist.githubusercontent.com/almeidacavalcante/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.1.js)
 
 ### Duplicate the cards to have 2 sets of 12
 
@@ -259,7 +259,7 @@ And there you have it.
 
 ![](../images/Screen-Shot-2018-02-07-at-11.27.02-AM.png)
 
-- [Version 0.2 Source](https://gist.githubusercontent.com/taniarascia/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.2.js)
+- [Version 0.2 Source](https://gist.githubusercontent.com/almeidacavalcante/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.2.js)
 
 ### Randomize the display of cards
 
@@ -278,7 +278,7 @@ Have fun refreshing the grid over and over again.
 
 ![](../images/Screen-Shot-2018-02-07-at-11.32.52-AM.png)
 
-- [Version 0.3 Source](https://gist.githubusercontent.com/taniarascia/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.3.js)
+- [Version 0.3 Source](https://gist.githubusercontent.com/almeidacavalcante/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.3.js)
 
 ### Add selected style for selected cards
 
@@ -316,7 +316,7 @@ Now every selected div will have a blue border, as defined by the `selected` CSS
 
 ![](../images/Screen-Shot-2018-02-07-at-11.42.10-AM.png)
 
-- [Version 0.4 Source](https://gist.githubusercontent.com/taniarascia/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.4.js)
+- [Version 0.4 Source](https://gist.githubusercontent.com/almeidacavalcante/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.4.js)
 
 ### Only allow two cards to be selected at a time
 
@@ -343,7 +343,7 @@ if (count < 2) {
 
 ![](../images/Screen-Shot-2018-02-07-at-1.44.05-PM.png)
 
-- [Version 0.5 Source](https://gist.githubusercontent.com/taniarascia/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.5.js)
+- [Version 0.5 Source](https://gist.githubusercontent.com/almeidacavalcante/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.5.js)
 
 ### Determine if two selected cards are a match and hide them
 
@@ -451,7 +451,7 @@ if (clicked.nodeName === 'SECTION' || clicked === previousTarget) {
 
 Now a second click on the same element will be ignored.
 
-- [Version 0.6 Source](https://gist.githubusercontent.com/taniarascia/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.6.js)
+- [Version 0.6 Source](https://gist.githubusercontent.com/almeidacavalcante/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.6.js)
 
 ### Reset guess count after 2
 
@@ -492,7 +492,7 @@ Now you can make multiple matches. You'll notice that the select style will disa
 
 ![](../images/Screen-Shot-2018-02-07-at-2.14.01-PM.png)
 
-- [Version 0.7 Source](https://gist.githubusercontent.com/taniarascia/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.7.js)
+- [Version 0.7 Source](https://gist.githubusercontent.com/almeidacavalcante/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.7.js)
 
 ### Add delay to selections
 
@@ -523,7 +523,7 @@ Now we can see selections and matches for 1.2 seconds before they disappear.
 
 ![](../images/Screen-Shot-2018-02-07-at-2.43.35-PM.png)
 
-- [Version 0.8 Source](https://gist.githubusercontent.com/taniarascia/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.8.js)
+- [Version 0.8 Source](https://gist.githubusercontent.com/almeidacavalcante/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.8.js)
 
 ### Show back of card initially and flip on select
 
@@ -657,7 +657,7 @@ And that's all the CSS.
 
 ![](../images/Screen-Shot-2018-02-07-at-3.16.44-PM.png)
 
-- [Version 0.9 Source](https://gist.githubusercontent.com/taniarascia/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.9.js)
+- [Version 0.9 Source](https://gist.githubusercontent.com/almeidacavalcante/a3b550d568f3e6b693e89786eb333988/raw/ee34cc6f77fce6399e954c779b274ffa23327045/memory-0.9.js)
 
 ### Finished game!
 
@@ -683,4 +683,4 @@ That's the last issue I could find! I added a blue background for a bit of a mor
 
 In this tutorial, we learned a lot about planning out an application before we create it, and breaking it up into small steps to make it easily achievable. We learned how to use plain JavaScript to insert and manipulate elements in the page, which will be helpful for anyone who only knows how to work with a library like jQuery. And we made something fun to play with. Enjoy!
 
-Again, you can view the demo [here](https://taniarascia.github.io/memory/), and view the source [here](https://github.com/taniarascia/memory). Questions, comments, and critiques appreciated.
+Again, you can view the demo [here](https://almeidacavalcante.github.io/memory/), and view the source [here](https://github.com/almeidacavalcante/memory). Questions, comments, and critiques appreciated.

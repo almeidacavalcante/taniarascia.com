@@ -11,7 +11,7 @@ tags:
   - wordpress
 ---
 
-In part one of the tutorial series [Developing a WordPress Theme From Scratch](http://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/), we learned what WordPress is, what it can do, and how to do the following:
+In part one of the tutorial series [Developing a WordPress Theme From Scratch](http://www.almeidacavalcante.com/developing-a-wordpress-theme-from-scratch/), we learned what WordPress is, what it can do, and how to do the following:
 
 - Set up a local **Apache, MySQL, PHP** (\*AMP) environment
 - Install WordPress on your local server
@@ -33,7 +33,7 @@ In this article, we're going to go through more essential WordPress theming tech
 #### Prerequisites
 
 - Basic knowledge of HTML and CSS
-- Ability set up WordPress and make a basic theme ([covered in part one](http://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/))
+- Ability set up WordPress and make a basic theme ([covered in part one](http://www.almeidacavalcante.com/developing-a-wordpress-theme-from-scratch/))
 
 #### Goals
 
@@ -159,7 +159,7 @@ Now we have functioning pagination.
 
 ## Comments
 
-One of the biggest advantages WordPress and server based content management systems have over static site generators is the ability to include comments without using a third party. (However, static site generators have many more advantages - [I have an article on setting up Jekyll](http://www.taniarascia.com/make-a-static-website-with-jekyll/) if you're interested in learning how to use them.)
+One of the biggest advantages WordPress and server based content management systems have over static site generators is the ability to include comments without using a third party. (However, static site generators have many more advantages - [I have an article on setting up Jekyll](http://www.almeidacavalcante.com/make-a-static-website-with-jekyll/) if you're interested in learning how to use them.)
 
 Comments seem complicated to set up, but it doesn't have to be hard at all. First, we're going to go back to **single.php** and enable the comments.
 
@@ -243,7 +243,7 @@ Now that we have pagination, blog posts, and comments set up, we can move on to 
 
 Located in your theme directory, you can create a file called [functions.php](https://codex.wordpress.org/Functions_File_Explained). You can use `functions.php` to add functionality and change defaults throughout WordPress. Plugins and custom functions are basically the same - any code you create can be made into a plugin, and vice versa. The only difference is that anything you place in your theme's functions is only applied while that theme is actively selected.
 
-> I have a [README on GitHub of useful WordPress functions](https://github.com/taniarascia/wp-functions), which might come in handy the more you use them.
+> I have a [README on GitHub of useful WordPress functions](https://github.com/almeidacavalcante/wp-functions), which might come in handy the more you use them.
 
 **functions.php** seems complicated, but it's mostly made up of a bunch of code blocks that, simplified, look like this:
 
@@ -601,13 +601,13 @@ We covered a lot of ground in this article; you should now be able to...
 - Create custom global settings
 - Create a custom post type
 
-All the source code is [on GitHub](https://github.com/taniarascia/startwordpress) as always. You can download the code and upload it into your themes folder and see it in action. I might set up a demo if there's any interest in that.
+All the source code is [on GitHub](https://github.com/almeidacavalcante/startwordpress) as always. You can download the code and upload it into your themes folder and see it in action. I might set up a demo if there's any interest in that.
 
 There is much more that custom post types can do - and much more that WordPress can do, as well. I haven't touched on [the theme customizer](https://codex.wordpress.org/Theme_Customization_API), which is the most current way of creating themes.
 
 I plan to continue this WordPress series and expand upon custom post types and what they can do. For now, I hope you learned something new, and of course, please feel free to reach out if I made any mistakes or errors or included any wrong or outdated information.
 
-[View on GitHub](https://github.com/taniarascia/startwordpress)
+[View on GitHub](https://github.com/almeidacavalcante/startwordpress)
 
 ## Part Three
 

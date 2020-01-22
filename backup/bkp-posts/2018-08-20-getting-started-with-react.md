@@ -40,8 +40,8 @@ Here are what I consider to be React prerequisites.
 
 Here's the source and a live demo of the end result.
 
-- [View Source on GitHub](https://github.com/taniarascia/react-tutorial)
-- [View Demo](https://taniarascia.github.io/react-tutorial/)
+- [View Source on GitHub](https://github.com/almeidacavalcante/react-tutorial)
+- [View Demo](https://almeidacavalcante.github.io/react-tutorial/)
 
 ## What is React?
 
@@ -220,7 +220,7 @@ And replace it with any other text. Once you save the file, you'll notice `local
 
 Go ahead and delete all the files out of the `/src` directory, and we'll create our own boilerplate file without any bloat. We'll just keep `index.css` and `index.js`.
 
-For `index.css`, I just copy-and-pasted the contents of [Primitive CSS](https://taniarascia.github.io/primitive/css/main.css) into the file. If you want, you can use Bootstrap or whatever CSS framework you want, or nothing at all. I just find it easier to work with.
+For `index.css`, I just copy-and-pasted the contents of [Primitive CSS](https://almeidacavalcante.github.io/primitive/css/main.css) into the file. If you want, you can use Bootstrap or whatever CSS framework you want, or nothing at all. I just find it easier to work with.
 
 Now in `index.js`, we're importing React, ReactDOM, and the CSS file.
 
@@ -954,7 +954,7 @@ And that's it! The app is complete. We can create, add, and remove users from ou
 
 ![](../images/Screen-Shot-2018-08-19-at-9.33.59-PM.png)
 
-If you got lost anywhere along the way, you can view [the complete source on GitHub](https://github.com/taniarascia/react-tutorial).
+If you got lost anywhere along the way, you can view [the complete source on GitHub](https://github.com/almeidacavalcante/react-tutorial).
 
 ## Pulling in API Data
 
@@ -1033,7 +1033,7 @@ Make sure you've exited out of your local React environment, so the code isn't c
 <div class="filename">package.json</div>
 
 ```js
-"homepage": "https://taniarascia.github.io/react-tutorial",
+"homepage": "https://almeidacavalcante.github.io/react-tutorial",
 ```
 
 We'll also add these two lines to the `scripts` property.
@@ -1064,13 +1064,13 @@ Finally, we'll deploy to `gh-pages`.
 npm run deploy
 ```
 
-And we're done! The app is now available live at [https://taniarascia.github.io/react-tutorial](https://taniarascia.github.io/react-tutorial).
+And we're done! The app is now available live at [https://almeidacavalcante.github.io/react-tutorial](https://almeidacavalcante.github.io/react-tutorial).
 
 ## Conclusion
 
 This article should have given you a good introduction to React, simple and class components, state, props, working with form data, pulling data in from an API, and deploying an app. There is much more to learn and do with React, but I hope you feel confident delving in and playing around with React yourself now.
 
-- [View Source on GitHub](https://github.com/taniarascia/react-tutorial)
-- [View Project](https://taniarascia.github.io/react-tutorial/)
+- [View Source on GitHub](https://github.com/almeidacavalcante/react-tutorial)
+- [View Project](https://almeidacavalcante.github.io/react-tutorial/)
 
 Please let me know if anything was unclear, or if there's anything else you'd like to see in this or a subsequent article.

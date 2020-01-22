@@ -17,8 +17,8 @@ A big part of working with JavaScript is knowing how to connect to APIs. As a fl
 
 We're going to make a very simple web app with plain JavaScript that will retrieve information from an API and display it on the page. There will be no server, dependencies, build tools, or anything else to further muddy the waters on an already difficult and confusing topic for beginners.
 
-- [View Demo App](https://taniarascia.github.io/sandbox/ghibli/)
-- [Source Code on GitHub](https://github.com/taniarascia/sandbox/tree/master/ghibli)
+- [View Demo App](https://almeidacavalcante.github.io/sandbox/ghibli/)
+- [Source Code on GitHub](https://github.com/almeidacavalcante/sandbox/tree/master/ghibli)
 
 #### Prerequisites
 
@@ -30,7 +30,7 @@ Everything else we'll cover along the way.
 
 #### Goals
 
-We are going to write from scratch [this simple web app](https://taniarascia.github.io/sandbox/ghibli/) that connects to a [Studio Ghibli API](https://ghibliapi.herokuapp.com/), retrieves the data with JavaScript, and displays it on the front end of a website. This is _not_ meant to be an extensive resource on APIs or REST - just the simplest possible example to get up and running that you can build from in the future. We'll learn:
+We are going to write from scratch [this simple web app](https://almeidacavalcante.github.io/sandbox/ghibli/) that connects to a [Studio Ghibli API](https://ghibliapi.herokuapp.com/), retrieves the data with JavaScript, and displays it on the front end of a website. This is _not_ meant to be an extensive resource on APIs or REST - just the simplest possible example to get up and running that you can build from in the future. We'll learn:
 
 - What a Web API is.
 - Learn how to use the HTTP request `GET` with JavaScript
@@ -87,7 +87,7 @@ We're going to start by creating an **index.html** file in a new directory. The 
 </html>
 ```
 
-Since this article is focused on the concepts of APIs and JavaScript, I will not be explaining how the CSS works. We will create a **style.css** that will be used to create a grid. For brevity's sake, I only included the most pertinent **structural** CSS below, but you can copy the [full CSS code here](https://raw.githubusercontent.com/taniarascia/sandbox/master/ghibli/style.css).
+Since this article is focused on the concepts of APIs and JavaScript, I will not be explaining how the CSS works. We will create a **style.css** that will be used to create a grid. For brevity's sake, I only included the most pertinent **structural** CSS below, but you can copy the [full CSS code here](https://raw.githubusercontent.com/almeidacavalcante/sandbox/master/ghibli/style.css).
 
 <div class="filename">style.css</div>
 
@@ -248,7 +248,7 @@ The first thing in our website is the logo, which is an `img` element. We'll cre
 const logo = document.createElement('img')
 ```
 
-An empty `img` is no good, so we'll set the `src` attribute to `logo.png`. (Found [here](https://github.com/taniarascia/sandbox/blob/master/ghibli/logo.png))
+An empty `img` is no good, so we'll set the `src` attribute to `logo.png`. (Found [here](https://github.com/almeidacavalcante/sandbox/blob/master/ghibli/logo.png))
 
 ```js
 logo.src = 'logo.png'
@@ -398,8 +398,8 @@ And with the full CSS styles, here is what the final product looks like.
 
 Again, here is a link to the live app and the source code.
 
-- [View Demo App](https://taniarascia.github.io/sandbox/ghibli/)
-- [Source Code on GitHub](https://github.com/taniarascia/sandbox/tree/master/ghibli)
+- [View Demo App](https://almeidacavalcante.github.io/sandbox/ghibli/)
+- [Source Code on GitHub](https://github.com/almeidacavalcante/sandbox/tree/master/ghibli)
 
 ## Conclusion
 

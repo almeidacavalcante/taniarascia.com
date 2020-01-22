@@ -449,7 +449,7 @@ Here is the final output of everything I filled out earlier.
 
 If you had any trouble following along the way, here are the final files for `page.php` and `functions.php` on GitHub Gist.
 
-[Functions](https://gist.github.com/taniarascia/9edee074b04569c00343a6a1045235e7) [Page](https://gist.github.com/taniarascia/412a22c2ad0c500df8e7197571a50db4)
+[Functions](https://gist.github.com/almeidacavalcante/9edee074b04569c00343a6a1045235e7) [Page](https://gist.github.com/almeidacavalcante/412a22c2ad0c500df8e7197571a50db4)
 
 This article only goes over the most basic way to add custom fields and update the database. There are a thousand more ways to do it, and plugins like [ACF](https://www.advancedcustomfields.com/) that will do it for you as well. I think it's useful to know how to interact with the database and learn how to do it without a plugin.
 

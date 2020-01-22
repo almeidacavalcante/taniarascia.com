@@ -4,7 +4,7 @@ slug: me
 template: page
 ---
 
-I’m Tania Rascia, a front end software developer, technical writer, and former chef. I currently work full-time and write for various [developer publications](/publications), such as DigitalOcean, LogRocket, and Envato.
+I’m Almeida Cavalcante, a front end software developer, technical writer, and former chef. I currently work full-time and write for various [developer publications](/publications), such as DigitalOcean, LogRocket, and Envato.
 
 I started this website as a place to document everything I learned while going through a [career change](/how-i-made-a-career-change-into-web-development/). I [learn in public](/learn) and write about everything I know.
 
@@ -18,7 +18,7 @@ I send out a message whenever I write something new. If you like my stuff and ha
   <iframe
     width="480"
     height="150"
-    src="https://taniarascia.substack.com/embed"
+    src="https://almeidacavalcante.substack.com/embed"
     frameborder="0"
     scrolling="no"
   ></iframe>
@@ -39,15 +39,15 @@ A non-exhaustive list.
 
 ## Open Source Projects
 
-- [TakeNote](https://github.com/taniarascia/takenote) – A web-based note-taking app with GitHub sync and Markdown support
-- [New Moon](https://github.com/taniarascia/new-moon) – the optimized dark theme for web development. Your new favorite theme
-- [Chip8.js](https://github.com/taniarascia/chip8) – a Chip-8 emulator written in JavaScript for terminal and the browser
-- [MVC.js](https://github.com/taniarascia/mvc) – a simple Todo MVC application in plain JavaScript
-- [Laconia](https://github.com/taniarascia/laconia) – a modern PHP MVC framework written without libraries or frameworks
-- [Primitive](https://github.com/taniarascia/primitive) – a minimalist front-end design toolkit built with Sass
-- [Snek.js](https://github.com/taniarascia/snek) – a terminal-based Snake implementation written in JavaScript (Node.js)
-- [Webpack Boilerplate](https://github.com/taniarascia/webpack-boilerplate) – a sensible Webpack 4 boilerplate with with Babel, Sass, ESLint, HMR, and prod/dev optimization
-- [tania.dev](https://github.com/taniarascia/taniarascia.com) – personal theme for Gatsby (the source of this website)
+- [TakeNote](https://github.com/almeidacavalcante/takenote) – A web-based note-taking app with GitHub sync and Markdown support
+- [New Moon](https://github.com/almeidacavalcante/new-moon) – the optimized dark theme for web development. Your new favorite theme
+- [Chip8.js](https://github.com/almeidacavalcante/chip8) – a Chip-8 emulator written in JavaScript for terminal and the browser
+- [MVC.js](https://github.com/almeidacavalcante/mvc) – a simple Todo MVC application in plain JavaScript
+- [Laconia](https://github.com/almeidacavalcante/laconia) – a modern PHP MVC framework written without libraries or frameworks
+- [Primitive](https://github.com/almeidacavalcante/primitive) – a minimalist front-end design toolkit built with Sass
+- [Snek.js](https://github.com/almeidacavalcante/snek) – a terminal-based Snake implementation written in JavaScript (Node.js)
+- [Webpack Boilerplate](https://github.com/almeidacavalcante/webpack-boilerplate) – a sensible Webpack 4 boilerplate with with Babel, Sass, ESLint, HMR, and prod/dev optimization
+- [tania.dev](https://github.com/almeidacavalcante/almeidacavalcante.com) – personal theme for Gatsby (the source of this website)
 
 ## Publications
 
@@ -82,8 +82,8 @@ Sometimes I sing and play accordion/piano. I like to [record music](https://soun
 
 ## 3D Printer
 
-- [Floppy Disk](https://github.com/taniarascia/3d#floppy-disk)
-- [Soap Holder](https://github.com/taniarascia/3d#soap-holder)
+- [Floppy Disk](https://github.com/almeidacavalcante/3d#floppy-disk)
+- [Soap Holder](https://github.com/almeidacavalcante/3d#soap-holder)
 
 ## Portfolio
 
@@ -105,7 +105,7 @@ A few sites I designed.
 - **Editor:** [Visual Studio Code](https://code.visualstudio.com/)
 - **Static site generator:** [Gatsby](https://gatsbyjs.org)
 - **Syntax highlighting:** [PrismJS](http://prismjs.com/)
-- **Code theme:** [New Moon](https://taniarascia.github.io/new-moon)
+- **Code theme:** [New Moon](https://almeidacavalcante.github.io/new-moon)
 - **Email newsletter:** [Substack](https://substack.com)
 - **Notes:** [SimpleNote](https://simplenote.com/), [TakeNote](https://takenote.dev)
 

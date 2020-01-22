@@ -38,7 +38,7 @@ That being said, I leave you with the disclaimer that this tutorial is meant for
 
 All the code throughout this article can be found on GitHub.
 
-- [View on GitHub](https://github.com/taniarascia/pdo/tree/feba19a43e63c617c95a1f6e68825f6e3086336c)
+- [View on GitHub](https://github.com/almeidacavalcante/pdo/tree/feba19a43e63c617c95a1f6e68825f6e3086336c)
 
 ### Update: Part Two is here! Learn how to update and delete entries.
 
@@ -889,6 +889,6 @@ If this were a real world app, of course there would be more considerations to m
 
 You would also add JavaScript validation to the front end of the site to ensure all required fields were being filled in, and using the correct type of characters for the input. (Although JavaScript validation is important, the most important part is that the back end that is receiving your data is protected).
 
-Again, all the code from this article is available [on GitHub](https://github.com/taniarascia/pdo/tree/feba19a43e63c617c95a1f6e68825f6e3086336c) if you got lost anywhere along the way. If you have suggestions on how to make the tutorial more clear or more secure, please don't hesitate to share! However, take into account this is meant to be a first look at the underlying code of database management, and not a full-fledged app.
+Again, all the code from this article is available [on GitHub](https://github.com/almeidacavalcante/pdo/tree/feba19a43e63c617c95a1f6e68825f6e3086336c) if you got lost anywhere along the way. If you have suggestions on how to make the tutorial more clear or more secure, please don't hesitate to share! However, take into account this is meant to be a first look at the underlying code of database management, and not a full-fledged app.
 
-- [View on GitHub](https://github.com/taniarascia/pdo/tree/feba19a43e63c617c95a1f6e68825f6e3086336c)
+- [View on GitHub](https://github.com/almeidacavalcante/pdo/tree/feba19a43e63c617c95a1f6e68825f6e3086336c)

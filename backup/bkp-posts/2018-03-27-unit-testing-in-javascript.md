@@ -19,7 +19,7 @@ In this tutorial, we'll learn how to implement the TDD process by developing a s
 
 You'll also learn how to use the built-in readline module in Node.js to send commands to the program via the command line.
 
-- [View Source on GitHub](https://github.com/taniarascia/calc)
+- [View Source on GitHub](https://github.com/almeidacavalcante/calc)
 
 #### Goals
 
@@ -593,7 +593,7 @@ Everything went through successfully and our output was as expected. Congratulat
 
 If you missed anything or got stuck along the way, you can find the source code on GitHub.
 
-- [View Source on GitHub](https://github.com/taniarascia/calc)
+- [View Source on GitHub](https://github.com/almeidacavalcante/calc)
 
 We just covered the basics of test-driven development through the creation of a command line calculator app in Node.js. We used the Mocha framework for testing, and the built-in Node.js Readline module for creating a command line interface.
 

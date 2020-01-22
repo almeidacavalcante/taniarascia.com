@@ -12,13 +12,13 @@ tags:
   - testing
 ---
 
-Recently, I wrote a lot of tests for [a project I've been working on](https://github.com/taniarascia/chip8), and after all that work I wanted to put some nice badges on my repo.
+Recently, I wrote a lot of tests for [a project I've been working on](https://github.com/almeidacavalcante/chip8), and after all that work I wanted to put some nice badges on my repo.
 
 I have one badge displaying that my build has passed (hopefully), and another displaying my code coverage percent.
 
 ![](../images/cov.png)
 
-> I'll use my account ([taniarascia](https://github.com/taniarascia/)) and my project's repo ([chip8](https://github.com/taniarascia/chip8)) as examples for the name. I'm assuming you're using GitHub, but it also applied to GitLab or BitBucket.
+> I'll use my account ([almeidacavalcante](https://github.com/almeidacavalcante/)) and my project's repo ([chip8](https://github.com/almeidacavalcante/chip8)) as examples for the name. I'm assuming you're using GitHub, but it also applied to GitLab or BitBucket.
 
 ### Steps
 
@@ -55,7 +55,7 @@ Travis CI is a CI/CD (continuous integration/continuous development) tool. It wi
 
 ![](../images/enable-travis.png)
 
-The page-specific URL should be https://travis-ci.org/taniarascia/chip8.
+The page-specific URL should be https://travis-ci.org/almeidacavalcante/chip8.
 
 ## Step 2 - Create a Coveralls account
 
@@ -63,7 +63,7 @@ Coveralls is a service to help you track coverage. Go to [coveralls.io](https://
 
 ![](../images/enable-coveralls.png)
 
-The page-specific URL should be https://coveralls.io/github/taniarascia/chip8.
+The page-specific URL should be https://coveralls.io/github/almeidacavalcante/chip8.
 
 ## Step 3 - Create scripts
 
@@ -125,13 +125,13 @@ It does seem like a lot of work just to get some badges up, but it's nice to alw
 <div class="filename">Travis CI Build Badge</div>
 
 ```md
-[![Build Status](https://travis-ci.org/<your-account>/<your-repo>.svg?branch=master)](https://travis-ci.org/taniarascia/chip8)
+[![Build Status](https://travis-ci.org/<your-account>/<your-repo>.svg?branch=master)](https://travis-ci.org/almeidacavalcante/chip8)
 ```
 
 <div class="filename">Code Coverage Badge</div>
 
 ```md
-[![Coverage Status](https://coveralls.io/repos/github/<your-account>/<your-repo>/badge.svg?branch=master)](https://coveralls.io/github/taniarascia/chip8?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/<your-account>/<your-repo>/badge.svg?branch=master)](https://coveralls.io/github/almeidacavalcante/chip8?branch=master)
 ```
 
 Now once you push your code to GitHub with the config files and README badges, it should send the build off to Travis, and Travis should send the coverage off to Coveralls.

@@ -14,7 +14,10 @@ tags:
 <!-- # Article content
 * [ ] Introduction
 * [ ] Content Summary
-* [ ] How to create an API using NodeJS and Express
+* [x] How to create an API using NodeJS and Express
+* [ ] Using Insomnia to test your API
+  * [ ] Insomnia instalation
+  * [ ] Sending http requests
 -->
 
 ## Starting a new project
@@ -157,8 +160,3 @@ node src/index.js
 After that visit: `http://localhost:3000`
 
 
-<!-- 
-* [ ] Using Insomnia to test your API
-  * [ ] Insomnia instalation
-  * [ ] Sending http requests
--->

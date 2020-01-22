@@ -15,19 +15,19 @@ tags:
 
 I wanted to write a simple application in plain JavaScript using the [model-view-controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) architectural pattern. So I did, and here it is. Hopefully it helps you understand MVC, as it's a difficult concept to wrap your head around when you're first starting out.
 
-I made [this todo app](https://taniarascia.github.io/mvc), which is a simple little browser app that allows you to CRUD (create, read, update, and delete) todos. It just consists of an `index.html`, `style.css`, and `script.js`, so nice and simple and dependency/framework-free for learning purposes.
+I made [this todo app](https://almeidacavalcante.github.io/mvc), which is a simple little browser app that allows you to CRUD (create, read, update, and delete) todos. It just consists of an `index.html`, `style.css`, and `script.js`, so nice and simple and dependency/framework-free for learning purposes.
 
 #### Prerequisites
 
 - Basic JavaScript and HTML
-- Familiarity with [the latest JavaScript syntax](https://www.taniarascia.com/es6-syntax-and-feature-overview/)
+- Familiarity with [the latest JavaScript syntax](https://www.almeidacavalcante.com/es6-syntax-and-feature-overview/)
 
 #### Goals
 
 Create a todo app in the browser with plain JavaScript, and get familiar with the concepts of MVC (and OOP - object-oriented programming).
 
-- [View demo](https://taniarascia.github.io/mvc)
-- [View source](https://github.com/taniarascia/mvc)
+- [View demo](https://almeidacavalcante.github.io/mvc)
+- [View source](https://github.com/almeidacavalcante/mvc)
 
 > **Note:** Since this app uses the latest JavaScript features (ES2017), it won't work as-is on some browsers like Safari without using Babel to compile to backwards-compatible JavaScript syntax.
 
@@ -76,7 +76,7 @@ This is going to be a fully JavaScript app, which means everything will be handl
 </html>
 ```
 
-I wrote a small bit of CSS just to make it look acceptable, which you can find [here](https://github.com/taniarascia/mvc/blob/master/style.css) and save to `style.css`. I'm not going to write any more about the CSS, because it's not the focus of this article.
+I wrote a small bit of CSS just to make it look acceptable, which you can find [here](https://github.com/almeidacavalcante/mvc/blob/master/style.css) and save to `style.css`. I'm not going to write any more about the CSS, because it's not the focus of this article.
 
 Okay, so now that we have the HTML and CSS, so it's time to actually start writing the app.
 
@@ -593,7 +593,7 @@ this.view.bindEditTodo(this.handleEditTodo)
 
 There you have it. A dependency-free todo app in plain JavaScript that demonstrates the concepts of model-view-controller architecture. Here is a link to the completed demo and source once again.
 
-- [View demo](https://taniarascia.github.io/mvc)
-- [View source](https://github.com/taniarascia/mvc)
+- [View demo](https://almeidacavalcante.github.io/mvc)
+- [View source](https://github.com/almeidacavalcante/mvc)
 
 I hope this tutorial helped you understand MVC. Using this loosely-coupled pattern can add a lot of boilerplate and abstraction to an application, but it's also a predictable, familiar pattern that is commonly used across many frameworks, and an important concept to know as a developer.

@@ -19,9 +19,9 @@ There’s a popular plugin called [parallax.js](http://pixelcog.github.io/parall
 
 Create a simple parallax effect using CSS and JavaScript and no plugins.
 
-[View the Demo](http://codepen.io/taniarascia/full/mPpZZM/)
+[View the Demo](http://codepen.io/almeidacavalcante/full/mPpZZM/)
 
-See the Pen [Parallax Scroll Effect](http://codepen.io/taniarascia/pen/mPpZZM/)
+See the Pen [Parallax Scroll Effect](http://codepen.io/almeidacavalcante/pen/mPpZZM/)
 
 ## Container
 
@@ -175,4 +175,4 @@ Everything that seems complicated can be broken down and simplified. The first t
 
 I'm not a fan of including parallax on mobile, so I would add an `if` statement on the jQuery and a `@media` query on the CSS to only allow parallax after a certain screen width.
 
-[View the Demo](http://codepen.io/taniarascia/full/mPpZZM/)
+[View the Demo](http://codepen.io/almeidacavalcante/full/mPpZZM/)

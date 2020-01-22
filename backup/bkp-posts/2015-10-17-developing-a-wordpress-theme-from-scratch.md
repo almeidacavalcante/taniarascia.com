@@ -18,7 +18,7 @@ You know HTML, CSS, and JavaScript. You can make beautiful websites. Maybe you'v
 
 All you need to start is a website. Any website will do. You don't need to know any PHP, or have any prior experience with WordPress. Your website can be custom, or built on Bootstrap/some other framework.
 
-You _do_ need to know how to set up a local server environment. Fortunately, if you don't know how, [I wrote a short, sweet article](http://www.taniarascia.com/local-environment) about getting set up with one. It will only take a few minutes, so go ahead and do that first.
+You _do_ need to know how to set up a local server environment. Fortunately, if you don't know how, [I wrote a short, sweet article](http://www.almeidacavalcante.com/local-environment) about getting set up with one. It will only take a few minutes, so go ahead and do that first.
 
 #### Goals
 
@@ -52,15 +52,15 @@ I'm going to take an existing simple starter template and convert it into WordPr
 
 This is one of the default themes on [Bootstrap's official website](http://getbootstrap.com).
 
-I have conveniently set up a [GitHub repository of the code](https://github.com/taniarascia/bootstrapblog) that you can pull to a local directory and follow along with me.
+I have conveniently set up a [GitHub repository of the code](https://github.com/almeidacavalcante/bootstrapblog) that you can pull to a local directory and follow along with me.
 
-> Don't know how to use Git/GitHub? You can remedy that by [reading my Getting Started with Git article](http://www.taniarascia.com/getting-started-with-git/). If you just want to get started without dealing with Git, just create a directory on your computer with [index.html](https://github.com/taniarascia/bootstrapblog/blob/master/index.html) and [blog.css](https://github.com/taniarascia/bootstrapblog/blob/master/blog.css) and you're ready to go.
+> Don't know how to use Git/GitHub? You can remedy that by [reading my Getting Started with Git article](http://www.almeidacavalcante.com/getting-started-with-git/). If you just want to get started without dealing with Git, just create a directory on your computer with [index.html](https://github.com/almeidacavalcante/bootstrapblog/blob/master/index.html) and [blog.css](https://github.com/almeidacavalcante/bootstrapblog/blob/master/blog.css) and you're ready to go.
 
 ## Installing WordPress
 
 There are plenty of articles out there about how to install WordPress. They make the process seem long and scary, and the first time you do it, it can definitely be a bit confusing. [Here is the official guide to getting set up](https://wordpress.org/support/article/how-to-install-wordpress/).
 
-Since we're using a [local server and MAMP](http://www.taniarascia.com/local-environment), I already know you have all the prerequisites to installation, and FTP is not necessary.
+Since we're using a [local server and MAMP](http://www.almeidacavalcante.com/local-environment), I already know you have all the prerequisites to installation, and FTP is not necessary.
 
 #### Create a place for WordPress to live
 
@@ -94,7 +94,7 @@ Click on phpMyAdmin. Click `Databases > create database`. I'm going to call mine
 
 Alright, final step. Find `wp-config-sample.php` in your directory.
 
-[It will look exactly like this.](https://gist.github.com/taniarascia/3dd96c03b0107947d617)
+[It will look exactly like this.](https://gist.github.com/almeidacavalcante/3dd96c03b0107947d617)
 
 Don't be nervous. Change the database name, username, and password, from this:
 
@@ -161,14 +161,14 @@ style.css
 ```css
 /*
 Theme Name: Start WordPress
-Author: Tania Rascia
+Author: Almeida Cavalcante
 Description: Bootstrap Blog template converted to WordPress
 Version: 0.0.1
 Tags: bootstrap
 */
 ```
 
-Remember [the Bootstrap blog source code](https://github.com/taniarascia/bootstrapblog) from earlier in the article? Move those two files - `index.html` and `blog.css` - to your custom theme folder. Rename `index.html` to `index.php`.
+Remember [the Bootstrap blog source code](https://github.com/almeidacavalcante/bootstrapblog) from earlier in the article? Move those two files - `index.html` and `blog.css` - to your custom theme folder. Rename `index.html` to `index.php`.
 
 Your theme has now been created. Go to the WordPress dashboard, and click on `Appearance > Themes`. You'll see the theme in the collection with all the default themes.
 
@@ -208,7 +208,7 @@ Right now, everything is in **index.php**. But obviously we want the header, foo
 
 We're going to divide **index.php** into four sections - **header.php**, **footer.php**, **sidebar.php** and **content.php**.
 
-Here's the original [index.php](https://gist.github.com/taniarascia/9d36fd3de51fd7d99f38). Now we start cutting and pasting.
+Here's the original [index.php](https://gist.github.com/almeidacavalcante/9d36fd3de51fd7d99f38). Now we start cutting and pasting.
 
 Everything from `<!DOCTYPE html>` to the main blog header will be in the header file. The header usually contains all the necessary head styles and the top navigation to the website. **The only addition I will make to the code is adding `<?php wp_head(); ?>` right before the closing `</head>`**.
 
@@ -572,5 +572,5 @@ If something was unclear, please let me know. If I've posted any blatantly incor
 
 If you would like to know how to migrate this local instance to a live server, view this small tutorial:
 
-- [Migrating WordPress](http://www.taniarascia.com/migrating-a-wordpress-site-to-a-live-server/)
-- [In part two](http://www.taniarascia.com/wordpress-from-scratch-part-two), I discuss additional functionality for WordPress, such as paginaton, comments, functions, custom post types, and more. [In part three](http://www.taniarascia.com/wordpress-part-three-custom-fields-and-metaboxes/), I go over how to create custom fields and metaboxes.
+- [Migrating WordPress](http://www.almeidacavalcante.com/migrating-a-wordpress-site-to-a-live-server/)
+- [In part two](http://www.almeidacavalcante.com/wordpress-from-scratch-part-two), I discuss additional functionality for WordPress, such as paginaton, comments, functions, custom post types, and more. [In part three](http://www.almeidacavalcante.com/wordpress-part-three-custom-fields-and-metaboxes/), I go over how to create custom fields and metaboxes.

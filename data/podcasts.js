@@ -8,7 +8,7 @@ export default [
     img: egghead,
   },
   {
-    title: 'Woman in Tech: Tania Rascia - with Bolaji Ayodeji of Hashnode',
+    title: 'Woman in Tech: Almeida Cavalcante - with Bolaji Ayodeji of Hashnode',
     path: 'https://townhall.hashnode.com/women-in-tech-tania-rascia-ck2bfzn2100up3is10zhphol4',
     img: hashnode,
   },

@@ -57,11 +57,11 @@ Windows, macOS - whatever operating system you're using - is simply a visual rep
 
 I really want to reiterate this. Your _entire_ computer can be accessed through the command line. You can do everything through the command line. It's the same computer you already know and love.
 
-On a Mac, if I open Finder, this is my home folder. It's called `taniarascia`.
+On a Mac, if I open Finder, this is my home folder. It's called `almeidacavalcante`.
 
 ![](../images/Screen-Shot-2017-01-07-at-2.46.52-PM-1.png)
 
-I can access the same exact files through a web browser. If I open Google Chrome and I type in `/Users/taniarascia`, I'll be in the same place.
+I can access the same exact files through a web browser. If I open Google Chrome and I type in `/Users/almeidacavalcante`, I'll be in the same place.
 
 ![](../images/Screen-Shot-2017-01-07-at-2.48.38-PM-1.png)
 
@@ -71,7 +71,7 @@ The same is true of the command line interface. I'm going to open **Terminal.app
 
 > My terminal background is dark. Yours might be white or blue or different depending on what you're using. This is simply a personal preference, which we can learn to change later.
 
-Just as I was "in" the `taniarascia` folder in Google Chrome and Finder, I'm currently "in" the same folder via the command prompt/terminal. I'm going to prove this by typing `pwd` into the terminal, then pressing enter. `pwd` stands for **Print Working Directory**, and will show me exactly "where I am" at any point.
+Just as I was "in" the `almeidacavalcante` folder in Google Chrome and Finder, I'm currently "in" the same folder via the command prompt/terminal. I'm going to prove this by typing `pwd` into the terminal, then pressing enter. `pwd` stands for **Print Working Directory**, and will show me exactly "where I am" at any point.
 
 Here's what I type.
 
@@ -82,20 +82,20 @@ pwd
 And here's what is written (printed) to the screen.
 
 ```terminal
-NolBook:~ taniarascia$ pwd
-/Users/taniarascia
+NolBook:~ almeidacavalcante$ pwd
+/Users/almeidacavalcante
 ```
 
 ![](../images/Screen-Shot-2017-01-07-at-3.07.35-PM.png)
 
-It wrote `/Users/taniarascia` as my current working directory, where I "am". But how do I know what's there? How do I interact with any of those files and directories? I'm going to use the `ls` command, which stands for **List Directory Contents**
+It wrote `/Users/almeidacavalcante` as my current working directory, where I "am". But how do I know what's there? How do I interact with any of those files and directories? I'm going to use the `ls` command, which stands for **List Directory Contents**
 
 ```bash
 ls
 ```
 
 ```terminal
-NolBook:~ taniarascia$ ls
+NolBook:~ almeidacavalcante$ ls
   Desktop   Documents Library   Music     Private   Sites
   Dev       Downloads Movies    Pictures  Public    Songs
 ```
@@ -111,7 +111,7 @@ Now you should understand that you're accessing the same files and folders from 
 When I open terminal, I see this.
 
 ```terminal
-NolBook:~ taniarascia$
+NolBook:~ almeidacavalcante$
 ```
 
 You'll probably see something else, but the `~` and `$` will remain. Here's what's going on, which you can look back on for reference:
@@ -121,8 +121,8 @@ Computer Name:Directory UsernameREADY
 ```
 
 - **Computer Name** (NolBook) - That's just the name I gave my computer.
-- **Directory** (`~` ) - Directly next to the computer name is the current directory you're working in. `~` stands for home directory, which is my `taniarascia` folder.
-- **Username** (taniarascia) - This might be slightly confusing because my home folder AND username are both taniarascia, but this is specifically referring to the computer user.
+- **Directory** (`~` ) - Directly next to the computer name is the current directory you're working in. `~` stands for home directory, which is my `almeidacavalcante` folder.
+- **Username** (almeidacavalcante) - This might be slightly confusing because my home folder AND username are both almeidacavalcante, but this is specifically referring to the computer user.
 - **READY** (`$`) - A dollar sign signifies that the prompt is ready to accept your command. You do not type the `$`, it's just there. On a Windows computer, this is represented by a `>` symbol.
 
 > A terminal or command prompt is a program (command line interface) that runs a shell, which interprets the commands.
@@ -156,10 +156,10 @@ ls
 Here is the output.
 
 ```terminal
-NolBook:~ taniarascia$ cd music
-NolBook:music taniarascia$ pwd
-/Users/taniarascia/music
-NolBook:music taniarascia$ ls
+NolBook:~ almeidacavalcante$ cd music
+NolBook:music almeidacavalcante$ pwd
+/Users/almeidacavalcante/music
+NolBook:music almeidacavalcante$ ls
 Audio Music Apps GarageBand iTunes
 ```
 
@@ -174,7 +174,7 @@ cd ..
 ```
 
 ```terminal
-NolBook:~ taniarascia$
+NolBook:~ almeidacavalcante$
 ```
 
 By typing `cd ..` I've told the shell to take me back one directory, and now I'm back in home/`~`. Right now would be a good time to practice moving between directories. `../..` will take you back two directories, and so on.
@@ -234,9 +234,9 @@ Congratulations, you created a directory! If I type `ls`, I'll see my newly crea
 Now you can move into the **Shell** directory by inputting `cd shell`.
 
 ```terminal
-NolBook:~ taniarascia$ cd shell
-NolBook:shell taniarascia$ pwd
-/Users/taniarascia/shell
+NolBook:~ almeidacavalcante$ cd shell
+NolBook:shell almeidacavalcante$ pwd
+/Users/almeidacavalcante/shell
 
 ```
 
@@ -277,7 +277,7 @@ cat hello.txt
 ```
 
 ```terminal
-NolBook:shell taniarascia$ cat hello.txt
+NolBook:shell almeidacavalcante$ cat hello.txt
 Hello World
 ```
 
@@ -313,7 +313,7 @@ Note that this will permanently delete the file - it won't send to the Trash/Rec
 Now, let's say you create a new directory called **goodbye** with `mkdir goodbye`, and you try to delete it with `rm goodbye`. You'll get this error.
 
 ```terminal
-NolBook:shell taniarascia$ rm goodbye
+NolBook:shell almeidacavalcante$ rm goodbye
 rm: goodbye: is a directory
 ```
 
@@ -348,7 +348,7 @@ We can also copy and paste files through the command line with the `cp` (**Copy*
 cp source destination
 ```
 
-I'm in my **Shell** folder. Let's say I make a new directory called **websites** with `mkdir websites`. Now I can copy my `test.html` from `/Users/taniarascia/shell` to `/Users/taniarascia/shell/websites`.
+I'm in my **Shell** folder. Let's say I make a new directory called **websites** with `mkdir websites`. Now I can copy my `test.html` from `/Users/almeidacavalcante/shell` to `/Users/almeidacavalcante/shell/websites`.
 
 ```bash
 cp test.html websites
@@ -462,8 +462,8 @@ whoami
 ```
 
 ```terminal
-NolBook:~ taniarascia$ whoami
-taniarascia
+NolBook:~ almeidacavalcante$ whoami
+almeidacavalcante
 ```
 
 I often need to check the IP address of a given domain when I'm migrating a website. I can do this with the `dig` (**DNS Lookup**) command.
@@ -526,7 +526,7 @@ Now to save my file, I'll press control + O (the letter), and enter to confirm. 
 Now I can check the contents of **index.html** with `cat` to make sure it all worked properly.
 
 ```terminal
-NolBook:shell taniarascia$ cat index.html
+NolBook:shell almeidacavalcante$ cat index.html
   <html>
     <head>
       <title>Hello, World!</title>

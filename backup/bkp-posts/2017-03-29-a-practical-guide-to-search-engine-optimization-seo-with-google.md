@@ -168,10 +168,10 @@ Search Console will tell you the search terms people typed to find your site org
     "@type": "Person",
     "image": "tania.jpg",
     "jobTitle": "Web developer",
-    "name": "Tania Rascia",
+    "name": "Almeida Cavalcante",
     "gender": "female",
     "url": "",
-    "sameAs": ["https://github.com/taniarascia", "https://twitter.com/taniarascia"]
+    "sameAs": ["https://github.com/almeidacavalcante", "https://twitter.com/almeidacavalcante"]
   }
 </script>
 ```

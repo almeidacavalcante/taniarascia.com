@@ -103,13 +103,13 @@ At some point, I was given the responsibility of learning how to use AWS (Amazon
 
 ### Side project: Primitive CSS Framework
 
-While working as a WordPress developer, I also made all my own custom designs for the sites I created. To speed up this process, I created [Primitive](https://taniarascia.github.io/primitive) [(source)](https://github.com/taniarascia/primitive), a minimal CSS framework and website boilerplate that made it quick and easy for me to make unique, custom designs. The framework is built in Sass. With Primitive, I could create the majority of a site's CSS in a few hours.
+While working as a WordPress developer, I also made all my own custom designs for the sites I created. To speed up this process, I created [Primitive](https://almeidacavalcante.github.io/primitive) [(source)](https://github.com/almeidacavalcante/primitive), a minimal CSS framework and website boilerplate that made it quick and easy for me to make unique, custom designs. The framework is built in Sass. With Primitive, I could create the majority of a site's CSS in a few hours.
 
 I built many sites with Primitive - [Cafe Ba Ba Reeba](http://cafebabareeba.com), [Shaw's Crabhouse](http://shawscrabhouse.com), [Tokio Pub](http://tokiopub.com), [Krispy Kreme Pacific Northwest](http://krispykremepacificnw.com/), this blog, and more.
 
 ### Side project: New Moon
 
-I created [New Moon](https://taniarascia.github.io/new-moon/), the best code theme for web development, and distrubuted it to [Visual Studio Code](https://github.com/taniarascia/new-moon-vscode), [Brackets](https://github.com/taniarascia/new-moon), [Sublime Text](https://github.com/taniarascia/new-moon-sublime), [Chrome DevTools](https://chrome.google.com/webstore/detail/devtools-theme-new-moon/lndddploiofhfpdcoclegenegblkhlfk?hl=en), learning how to create extensions for each of those environments.
+I created [New Moon](https://almeidacavalcante.github.io/new-moon/), the best code theme for web development, and distrubuted it to [Visual Studio Code](https://github.com/almeidacavalcante/new-moon-vscode), [Brackets](https://github.com/almeidacavalcante/new-moon), [Sublime Text](https://github.com/almeidacavalcante/new-moon-sublime), [Chrome DevTools](https://chrome.google.com/webstore/detail/devtools-theme-new-moon/lndddploiofhfpdcoclegenegblkhlfk?hl=en), learning how to create extensions for each of those environments.
 
 ## Side quest: Technical Writer for DigitalOcean
 
@@ -137,7 +137,7 @@ After I got back from traveling, I started looking for another job. I knew I nev
 
 ### Side project: Laconia MVC Framework
 
-During this time, I wrote [Laconia](https://laconia.dev/) [(source)](https://github.com/taniarascia/laconia), a modern MVC (Model View Controller) application written in plain PHP without libraries or frameworks. I wanted to learn how to create something with MVC architecture, and I didn't want to rely on a framework to do it. I wanted it to be secure, and I wanted it to have users. I aimed to and succeeded in learning the basics of:
+During this time, I wrote [Laconia](https://laconia.dev/) [(source)](https://github.com/almeidacavalcante/laconia), a modern MVC (Model View Controller) application written in plain PHP without libraries or frameworks. I wanted to learn how to create something with MVC architecture, and I didn't want to rely on a framework to do it. I wanted it to be secure, and I wanted it to have users. I aimed to and succeeded in learning the basics of:
 
 - **Authentication** - logging in, logging out, resetting a password, having private content/dashboard hidden from anonymous users
 - **Security and validation** - encrypted passwords and hashing, parameter binding with SQL, making sure users cannot be overridden, making sure no spam or empty content can go through, making sure passwords and usernames have the proper characters
@@ -169,7 +169,7 @@ Eventually, I wanted to do anything else besides PHP or jQuery. JavaScript seeme
 
 ### Side project: Chip-8 Emulator
 
-My project of 2019 has been creating a [Chip-8 emulator](https://github.com/taniarascia/chip8) in Node.js from scratch, thanks to Vanya Sergeev. I've learned many lower-level programming concepts, such as:
+My project of 2019 has been creating a [Chip-8 emulator](https://github.com/almeidacavalcante/chip8) in Node.js from scratch, thanks to Vanya Sergeev. I've learned many lower-level programming concepts, such as:
 
 - [The concept of binary, decimal, and hexadecimal base systems](/bits-bytes-bases-and-a-hex-dump-javascript/) how they interact with each other and the concept of abstract numbers in programming.
 - **Bits, nibbles, bytes, ASCII encoding**, and big and little endian values.

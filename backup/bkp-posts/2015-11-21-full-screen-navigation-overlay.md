@@ -13,7 +13,7 @@ tags:
   - responsive
 ---
 
-One current trend in navigation styles that you may have seen is the full screen navigation overlay. With this type of navigation, toggling the navigation will overlay the menu across the entire screen. Codrops did a [really nice set of demos](http://tympanus.net/Development/FullscreenOverlayStyles/) with full screen overlay styles last year. I wanted to demonstrate a very simple version of the overlay using jQuery. Of course, it's responsive as well, and you can [view the demo on CodePen](http://codepen.io/taniarascia/pen/yYrXRG).
+One current trend in navigation styles that you may have seen is the full screen navigation overlay. With this type of navigation, toggling the navigation will overlay the menu across the entire screen. Codrops did a [really nice set of demos](http://tympanus.net/Development/FullscreenOverlayStyles/) with full screen overlay styles last year. I wanted to demonstrate a very simple version of the overlay using jQuery. Of course, it's responsive as well, and you can [view the demo on CodePen](http://codepen.io/almeidacavalcante/pen/yYrXRG).
 
 ## HTML
 
@@ -96,13 +96,13 @@ The next two lines are the only that change between states. `aside` is set to `v
 
 Here is the demo of the code, with additional styles applied.
 
-See the Pen [yYrXRG](http://codepen.io/taniarascia/pen/yYrXRG/).
+See the Pen [yYrXRG](http://codepen.io/almeidacavalcante/pen/yYrXRG/).
 
 ## Additional Styles
 
 ## Close button
 
-The close button is `fixed`, with a `z-index` of 3, just to ensure it always appears above the overlay. The `span` setup is the same as from [the responsive dropdown navigation bar](http://taniarascia.com/responsive-dropdown-navigation-bar) tutorial, except it's not animated. I find this method easier than loading a font icon set or using a unicode letter.
+The close button is `fixed`, with a `z-index` of 3, just to ensure it always appears above the overlay. The `span` setup is the same as from [the responsive dropdown navigation bar](http://almeidacavalcante.com/responsive-dropdown-navigation-bar) tutorial, except it's not animated. I find this method easier than loading a font icon set or using a unicode letter.
 
 I'm using SCSS for these stylings, as nesting makes the code a lot more manageable.
 
@@ -253,4 +253,4 @@ In order to ensure the span is large enough to register a click event on mobile,
 
 I hope this simple bit of code inspires some possibilities for creative full screen overlay styles for you.
 
-- [View demo](http://codepen.io/taniarascia/pen/yYrXRG)
+- [View demo](http://codepen.io/almeidacavalcante/pen/yYrXRG)

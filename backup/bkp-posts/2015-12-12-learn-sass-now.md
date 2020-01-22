@@ -323,6 +323,6 @@ Any change in the directory will be registered.
 
 ## Conclusion
 
-There are other ways to use and compile Sass - for example, a Jekyll site has Sass compilation built in, and I've written about that in my [Make a Static Website with Jekyll](http://www.taniarascia.com/make-a-static-website-with-jekyll/) article. You may want to learn how to integrate Sass into a task runner, such as Grunt or Gulp. [Getting Started with Grunt and Sass](http://www.taniarascia.com/getting-started-with-grunt-and-sass/) will guide you through that process.
+There are other ways to use and compile Sass - for example, a Jekyll site has Sass compilation built in, and I've written about that in my [Make a Static Website with Jekyll](http://www.almeidacavalcante.com/make-a-static-website-with-jekyll/) article. You may want to learn how to integrate Sass into a task runner, such as Grunt or Gulp. [Getting Started with Grunt and Sass](http://www.almeidacavalcante.com/getting-started-with-grunt-and-sass/) will guide you through that process.
 
 From here you can build your own framework, or integrate with Bootstrap, Foundation, or a number of other frameworks and systems.

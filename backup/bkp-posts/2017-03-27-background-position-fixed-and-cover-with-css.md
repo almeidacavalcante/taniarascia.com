@@ -12,7 +12,7 @@ tags:
 
 I wanted to make a section of a website have a div featuring a background image that had both `background-attachment: fixed` and `background-size: cover`, regardless of the image's size. [This website](http://hub51chicago.com/private-parties) is a working example of multiple fixed, full-screen background image divs.
 
-[Demo](http://codepen.io/taniarascia/pen/VpGXJQ)
+[Demo](http://codepen.io/almeidacavalcante/pen/VpGXJQ)
 
 ```css
 div {

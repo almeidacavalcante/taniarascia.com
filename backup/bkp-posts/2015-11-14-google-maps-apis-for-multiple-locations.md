@@ -318,4 +318,4 @@ Now all of our locations are on the map with their respective info box.
 
 I've put this project up on GitHub - all you would have to do is insert your own API key.
 
-- [View on GitHub](https://github.com/taniarascia/googlemaps)
+- [View on GitHub](https://github.com/almeidacavalcante/googlemaps)

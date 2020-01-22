@@ -23,7 +23,7 @@ To see PHP and MySQL in action, view the Creating a Simple Database Application 
 
 You can view the commands alone without explanations on GitHub through the below link.
 
-- [View on GitHub](https://github.com/taniarascia/sql)
+- [View on GitHub](https://github.com/almeidacavalcante/sql)
 
 The logo in this article is of [Sequel Pro](https://www.sequelpro.com/), an awesome free MySQL GUI for Mac.
 
@@ -389,4 +389,4 @@ $delete = $statement->execute();
 
 Hopefully this helps you out if you need a quick refresher on the order of a `SELECT`, or how to work with PDO. Enjoy!
 
-- [View on GitHub](https://github.com/taniarascia/sql)
+- [View on GitHub](https://github.com/almeidacavalcante/sql)

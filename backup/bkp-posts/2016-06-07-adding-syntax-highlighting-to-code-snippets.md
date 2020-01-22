@@ -60,7 +60,7 @@ Here is an example of the above code embedded as a GitHub gist:
 
 And here is the above code embedded as a CodePen pen.
 
-See the Pen [mEerjX](http://codepen.io/taniarascia/pen/mEerjX/)
+See the Pen [mEerjX](http://codepen.io/almeidacavalcante/pen/mEerjX/)
 
 The advantage to embedding is that it's quick and easy. CodePen in specific is excellent for demos because you can show the code and the result.
 
@@ -112,9 +112,9 @@ Finally, wrap your desired code in `<pre><code class="language-whatever">`. You'
 
 Now here's what that ends up looking like.
 
-See the Pen [Prism Syntax Highlighting](http://codepen.io/taniarascia/pen/wWKzQQ/)
+See the Pen [Prism Syntax Highlighting](http://codepen.io/almeidacavalcante/pen/wWKzQQ/)
 
-Now you override the styles with whatever you want in the CSS file. On this blog, I use [New Moon](http://taniarascia.github.io/new-moon/), my own personal coding theme that I made available as an open-source package on Brackets, Atom, and Sublime because I'm that much of a dork. I encourage you to make your own as well.
+Now you override the styles with whatever you want in the CSS file. On this blog, I use [New Moon](http://almeidacavalcante.github.io/new-moon/), my own personal coding theme that I made available as an open-source package on Brackets, Atom, and Sublime because I'm that much of a dork. I encourage you to make your own as well.
 
 ## Escaping HTML and PHP
 
@@ -122,8 +122,8 @@ In order to display HTML or PHP code, some of the symbols must be escaped so the
 
 If you're writing on a WordPress blog, there is a [WordPress plugin](https://wordpress.org/plugins/escape-html/) to do this, but it doesn't work properly with Prism.js.
 
-[Here is some modified code that you can place in your **functions.php** to automatically escape HTML in your posts.](https://github.com/taniarascia/wp-functions#escape-html-in-posts)
+[Here is some modified code that you can place in your **functions.php** to automatically escape HTML in your posts.](https://github.com/almeidacavalcante/wp-functions#escape-html-in-posts)
 
 ## Conclusion
 
-Well, this was probably the most meta post I've ever made. Now you should know how to display beautiful code on your site in the way that works best for you. Each way has a limitation and advantage. I personally don't like relying on a third party service for anything, which is why I don't use gists or Disqus for comments. If you want to see some other helpful WordPress functions, [this is the resource for you.](https://github.com/taniarascia/wp-functions)
+Well, this was probably the most meta post I've ever made. Now you should know how to display beautiful code on your site in the way that works best for you. Each way has a limitation and advantage. I personally don't like relying on a third party service for anything, which is why I don't use gists or Disqus for comments. If you want to see some other helpful WordPress functions, [this is the resource for you.](https://github.com/almeidacavalcante/wp-functions)

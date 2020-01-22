@@ -202,4 +202,4 @@ Now, the code may not be that much shorter now, but imagine if our data had fift
 
 Note that less code or shorter code is not necessarily better code. You shouldn’t sacrifice readability and clarity for brevity.
 
-- [Here is a demo](https://codepen.io/taniarascia/pen/pLOLQX) of the code example above.
+- [Here is a demo](https://codepen.io/almeidacavalcante/pen/pLOLQX) of the code example above.

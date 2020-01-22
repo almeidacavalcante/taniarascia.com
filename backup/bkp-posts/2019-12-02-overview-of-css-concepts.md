@@ -18,7 +18,7 @@ Some people think CSS is really hard and it's too much of a hassle to learn. Som
 
 I'm going to go over some of the parts of CSS that are important on a daily basis, and give some of tips and tricks I've come to learn over the years.
 
-> If you just want some hints on how to make your design look pretty or consistent, check out [Design for Developers](https://www.taniarascia.com/design-for-developers/). I also think [Web Design in 4 Minutes](https://jgthms.com/web-design-in-4-minutes/) by [Jeremy Thomas](https://jgthms.com/) has an excellent, interactive introduction to the concepts of web design.
+> If you just want some hints on how to make your design look pretty or consistent, check out [Design for Developers](https://www.almeidacavalcante.com/design-for-developers/). I also think [Web Design in 4 Minutes](https://jgthms.com/web-design-in-4-minutes/) by [Jeremy Thomas](https://jgthms.com/) has an excellent, interactive introduction to the concepts of web design.
 
 #### Who is this article for?
 
@@ -467,7 +467,7 @@ Using an example of an `h2` with a `10px` bottom margin and a `p` with a `10px` 
 
 We'll see that there is a total `10px` margin between them, not `20px`.
 
-To use a real example, in [this example MVC todo app](https://taniarascia.github.io/mvc/) I made, each todo item is padded, and they're separated from each other by margins.
+To use a real example, in [this example MVC todo app](https://almeidacavalcante.github.io/mvc/) I made, each todo item is padded, and they're separated from each other by margins.
 
 ![](../images/padding3.png)
 
@@ -828,7 +828,7 @@ div {
 
 To summarize, use `relative` when you want something else to be anchored to an element but you don't want that element itself to move or be affected at all, and use `absolute` on the element to be anchored. A common usage of this is card-like elements.
 
-This [card element](https://taniarascia.github.io/card/) is an example of absolute coming in handy to make sure they're always the same size but the buttons line up.
+This [card element](https://almeidacavalcante.github.io/card/) is an example of absolute coming in handy to make sure they're always the same size but the buttons line up.
 
 ![](../images/absolute3.png)
 
@@ -1137,7 +1137,7 @@ h1 {
 
 This article is getting incredibly long, and there's still plenty I haven't covered. Here's a few quick answers and additional resources to the holes in my attempt to cover everything at once.
 
-To get an idea of how I generally like to style my CSS, take a look at [Primitive CSS](https://taniarascia.github.io/primitive/), the CSS/Sass framework I designed a few years ago, which contains a clean Sass setup and sensible defaults. Creating your own CSS framework and grid is a fun, challenging way to really learn CSS, and I highly recommend it!
+To get an idea of how I generally like to style my CSS, take a look at [Primitive CSS](https://almeidacavalcante.github.io/primitive/), the CSS/Sass framework I designed a few years ago, which contains a clean Sass setup and sensible defaults. Creating your own CSS framework and grid is a fun, challenging way to really learn CSS, and I highly recommend it!
 
 ### When should I style ids, classes, or tags?
 

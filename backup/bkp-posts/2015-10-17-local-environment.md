@@ -83,4 +83,4 @@ That concludes the scope of this article - learning how to set up a local server
 
 In the next part, I'm going to show you how to have a multi-environment setup.
 
-[Setting up virtual hosts](http://www.taniarascia.com/setting-up-virtual-hosts)
+[Setting up virtual hosts](http://www.almeidacavalcante.com/setting-up-virtual-hosts)
