@@ -25,7 +25,7 @@ export default class Index extends Component {
           <div className="lead">
             <div className="elevator">
               <h1>Hi and Welcome</h1>
-              <p>I'm a very enthusiastic developer and this is a tech related <Link to="/blog">blog</Link>.</p>
+              <p>I'm a very enthusiastic developer and this is a tech related <Link to="/blog">blog</Link> where I document my learning journey.</p>
               <br />
               
               <div className="social-buttons">
